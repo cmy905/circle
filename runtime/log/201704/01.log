@@ -1,0 +1,1236 @@
+[ 2017-04-01T10:58:12+08:00 ] ::1 ::1 GET /home/index
+[ log ] localhost/home/index [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：2,565.64kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624',
+)
+[ info ] [ PARAM ] array (
+  '/home/index' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T10:58:14+08:00 ] ::1 ::1 GET /favicon.ico
+[ log ] localhost/favicon.ico [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：1,929.46kb] [文件加载：26]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T10:58:17+08:00 ] ::1 ::1 GET /home/all/upload.html
+[ log ] localhost/home/all/upload.html [运行时间：0.096005s][吞吐率：10.42req/s] [内存消耗：2,642.95kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'all',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/all/upload_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\All->upload[ C:\wamp64\www\application\home\controller\All.php ]
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\all\upload.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T10:58:38+08:00 ] ::1 ::1 GET /home/index
+[ log ] localhost/home/index [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,565.51kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:08:56+08:00 ] ::1 ::1 GET /home/index/shows.html
+[ log ] localhost/home/index/shows.html [运行时间：0.236013s][吞吐率：4.24req/s] [内存消耗：3,714.06kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:17:04+08:00 ] ::1 ::1 GET /home/index/shows/chapter/1/page/2.html
+[ log ] localhost/home/index/shows/chapter/1/page/2.html [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：3,714.78kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows/chapter/1/page/2_html' => '',
+  'chapter' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:17:20+08:00 ] ::1 ::1 GET /home/index/shows/chapter/1/page/3.html
+[ log ] localhost/home/index/shows/chapter/1/page/3.html [运行时间：0.137008s][吞吐率：7.30req/s] [内存消耗：3,714.66kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows/chapter/1/page/2.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows/chapter/1/page/3_html' => '',
+  'chapter' => '1',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:17:26+08:00 ] ::1 ::1 GET /home/index/shows/chapter/1/page/4.html
+[ log ] localhost/home/index/shows/chapter/1/page/4.html [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：3,714.66kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows/chapter/1/page/3.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows/chapter/1/page/4_html' => '',
+  'chapter' => '1',
+  'page' => '4',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:17:42+08:00 ] ::1 ::1 GET /home/index/shows.html
+[ log ] localhost/home/index/shows.html [运行时间：0.146009s][吞吐率：6.85req/s] [内存消耗：3,713.93kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows/chapter/1/page/4.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:21:02+08:00 ] ::1 ::1 GET /home/index/shows.html
+[ log ] localhost/home/index/shows.html [运行时间：0.171009s][吞吐率：5.85req/s] [内存消耗：3,713.88kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:21:04+08:00 ] ::1 ::1 GET /home/index/shows.html
+[ log ] localhost/home/index/shows.html [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：3,713.88kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:22:22+08:00 ] ::1 ::1 GET /home/index/index.html
+[ log ] localhost/home/index/index.html [运行时间：0.113007s][吞吐率：8.85req/s] [内存消耗：2,878.74kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/index_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:22:24+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：1,933.98kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:22:53+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：1,934.20kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:22:54+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：1,934.20kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:22:59+08:00 ] ::1 ::1 GET /home/index
+[ log ] localhost/home/index [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：2,878.27kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:23:00+08:00 ] ::1 ::1 GET /home/all/concern.html
+[ log ] localhost/home/all/concern.html [运行时间：0.119006s][吞吐率：8.40req/s] [内存消耗：2,454.29kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'all',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/all/concern_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:23:18+08:00 ] ::1 ::1 GET /home/all/concern.html
+[ log ] localhost/home/all/concern.html [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：2,454.02kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'all',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/all/concern_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\All->concern[ C:\wamp64\www\application\home\controller\All.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www/application/home\view\all\concern.html[C:\wamp64\www\thinkphp\library\think\view\driver\Think.php:85]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:22+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,933.36kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:48+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,659.77kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Concern->concern[ C:\wamp64\www\application\home\controller\Concern.php ]
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\concern\concern.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:49+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.109007s][吞吐率：9.17req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:49+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.111006s][吞吐率：9.01req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:53+08:00 ] ::1 ::1 GET /home/index/shows.html
+[ log ] localhost/home/index/shows.html [运行时间：0.143009s][吞吐率：6.99req/s] [内存消耗：3,713.99kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:55+08:00 ] ::1 ::1 GET /home/index/shows.html
+[ log ] localhost/home/index/shows.html [运行时间：0.138007s][吞吐率：7.25req/s] [内存消耗：3,713.88kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'shows',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/shows_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->shows[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\shows.html [ array (
+  0 => 'img',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1  AND `yid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT MAX(yid) AS tp_max FROM `xx_comics_image` WHERE  `tid` = 21  AND `zid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:25:58+08:00 ] ::1 ::1 GET /home/index/index.html
+[ log ] localhost/home/index/index.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：2,878.74kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/shows.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/index_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:26:00+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.099005s][吞吐率：10.10req/s] [内存消耗：2,381.42kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Concern->concern[ C:\wamp64\www\application\home\controller\Concern.php ]
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\concern\concern.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:26:00+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:26:01+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:27:10+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.101006s][吞吐率：9.90req/s] [内存消耗：2,660.13kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Concern->concern[ C:\wamp64\www\application\home\controller\Concern.php ]
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\concern\concern.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:27:10+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:27:11+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:32:16+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.172009s][吞吐率：5.81req/s] [内存消耗：2,560.89kb] [文件加载：34]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:32:21+08:00 ] ::1 ::1 GET /home/concern/concern.html
+[ log ] localhost/home/concern/concern.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,381.53kb] [文件加载：33]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'concern',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/concern_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Concern->concern[ C:\wamp64\www\application\home\controller\Concern.php ]
+[ info ] [ VIEW ] C:\wamp64\www/application/home\view\concern\concern.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:32:21+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:32:22+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T11:32:23+08:00 ] ::1 ::1 GET /home/index/history.html
+[ log ] localhost/home/index/history.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,512.77kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'history',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/index/history_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->history[ C:\wamp64\www\application\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:C:\wamp64\www/application/home\view\index\history.html[C:\wamp64\www\thinkphp\library\think\view\driver\Think.php:85]
+
+---------------------------------------------------------------
+[ 2017-04-01T11:32:27+08:00 ] ::1 ::1 GET /home/concern/js/bootstrap.min.js
+[ log ] localhost/home/concern/js/bootstrap.min.js [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：2,443.91kb] [文件加载：35]
+[ info ] [ LANG ] C:\wamp64\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'concern',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/home/concern/concern.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'CNZZDATA1702264=cnzz_eid%3D372967536-1482229319-http%253A%252F%252Fblog.sina.com.cn%252F%26ntime%3D1482229319; UM_distinctid=15ab6e50d3e6f-0fe710b557c315-6a11157a-100200-15ab6e50d3f41; CNZZDATA1254932726=1764571469-1482228258-http%253A%252F%252Flocalhost%252F%7C1489123129; pgv_pvi=3784346624; PHPSESSID=qejn5tm877pj4i3a9fhpfucqr1',
+)
+[ info ] [ PARAM ] array (
+  '/home/concern/js/bootstrap_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

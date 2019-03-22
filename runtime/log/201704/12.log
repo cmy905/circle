@@ -1,0 +1,4257 @@
+[ 2017-04-12T00:25:44+08:00 ] 120.27.153.16 60.205.211.86 GET /phpmyadmin/scripts/setup.php
+[ log ] 120.27.153.16/phpmyadmin/scripts/setup.php [运行时间：0.004912s][吞吐率：203.59req/s] [内存消耗：335.96kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '120.27.153.16',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  '/phpmyadmin/scripts/setup_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T00:25:44+08:00 ] 120.27.153.16 60.205.211.86 GET /pma/scripts/setup.php
+[ log ] 120.27.153.16/pma/scripts/setup.php [运行时间：0.005777s][吞吐率：173.10req/s] [内存消耗：335.93kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pma',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '120.27.153.16',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  '/pma/scripts/setup_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T00:25:44+08:00 ] 120.27.153.16 60.205.211.86 GET /myadmin/scripts/setup.php
+[ log ] 120.27.153.16/myadmin/scripts/setup.php [运行时间：0.006613s][吞吐率：151.22req/s] [内存消耗：335.96kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'myadmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '120.27.153.16',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  '/myadmin/scripts/setup_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T00:25:44+08:00 ] 120.27.153.16 60.205.211.86 GET /MyAdmin/scripts/setup.php
+[ log ] 120.27.153.16/MyAdmin/scripts/setup.php [运行时间：0.006684s][吞吐率：149.61req/s] [内存消耗：335.96kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'MyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'en-us',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'ZmEu',
+  'host' => '120.27.153.16',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+  '/MyAdmin/scripts/setup_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T02:08:16+08:00 ] 120.27.153.16 185.27.217.19 GET /
+[ log ] 120.027.153.016/ [运行时间：0.007089s][吞吐率：141.07req/s] [内存消耗：431.71kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'curl/7.17.1 (mips-unknown-linux-gnu) libcurl/7.17.1 OpenSSL/0.9.8i zlib/1.2.3',
+  'host' => '120.027.153.016',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T02:29:35+08:00 ] 120.27.153.16 80.82.78.38 GET http://www.baidu.com/cache/global/img/gs.gif
+[ log ] www.baidu.comhttp://www.baidu.com/cache/global/img/gs.gif [运行时间：0.005338s][吞吐率：187.34req/s] [内存消耗：334.84kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cache',
+    1 => 'global',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'user-agent' => 'Mozilla',
+  'if-modified-since' => 'Thu, 19 Apr 2012 09:51:20 GMT',
+)
+[ info ] [ PARAM ] array (
+  '/cache/global/img/gs_gif' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T02:45:24+08:00 ] 120.27.153.16 116.62.176.205 GET /
+[ log ] 59.56.103.65:80/ [运行时间：0.004377s][吞吐率：228.46req/s] [内存消耗：431.61kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '59.56.103.65:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T05:25:47+08:00 ] 120.27.153.16 139.162.124.167 GET /
+[ log ] 120.27.153.16/ [运行时间：0.005565s][吞吐率：179.70req/s] [内存消耗：431.81kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'user-agent' => 'Mozilla/5.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T08:30:27+08:00 ] 120.27.153.16 42.156.251.187 GET /
+[ log ] 120.027.153.016/ [运行时间：0.006333s][吞吐率：157.91req/s] [内存消耗：432.52kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'spiderman',
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'accept-charset' => 'utf-8,ISO-8859-1;q=0.7,*;q=0.7',
+  'accept' => 'text/html,application/xml;q=0.9,application/xhtml+xml,text/xml;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => '120.027.153.016',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:43:15+08:00 ] 120.27.153.16 118.178.228.154 GET /
+[ log ] 101.37.39.132:80/ [运行时间：0.006968s][吞吐率：143.51req/s] [内存消耗：431.60kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '101.37.39.132:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:45:47+08:00 ] 120.27.153.16 123.151.42.61 GET http://www.baidu.com/
+[ log ] www.baidu.comhttp://www.baidu.com/ [运行时间：0.006527s][吞吐率：153.21req/s] [内存消耗：432.02kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'accept' => '*/*',
+  'content-type' => 'text/html',
+  'proxy-connection' => 'Keep-Alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T12:47:46+08:00 ] 120.27.153.16 112.17.235.105 POST /market/api/login
+[ log ] 120.27.153.16/market/api/login [运行时间：0.008024s][吞吐率：124.63req/s] [内存消耗：336.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'api',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; MI 4LTE MIUI/V8.0.2.0.MXDCNDG)',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'content-length' => '74',
+)
+[ info ] [ PARAM ] array (
+  '/market/api/login' => '',
+  'token' => 'a292117c7e98241d13fdb2b377486bce',
+  'password' => '',
+  'code' => '',
+  'mobile' => '15858188264',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T13:25:13+08:00 ] 120.27.153.16 122.233.201.84 GET /market/Public/home/img/auto_empty.jpg
+[ log ] 120.27.153.16/market/Public/home/img/auto_empty.jpg [运行时间：0.005354s][吞吐率：186.77req/s] [内存消耗：337.16kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/home/img/auto_empty_jpg' => '',
+  'img' => 'auto_empty.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T13:25:13+08:00 ] 120.27.153.16 122.233.201.84 GET //market/Public/upload/file/2016-12-23/585ceaaa60d7e.png
+[ log ] 120.27.153.16//market/Public/upload/file/2016-12-23/585ceaaa60d7e.png [运行时间：0.007258s][吞吐率：137.78req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-12-23/585ceaaa60d7e_png' => '',
+  'file' => '2016-12-23',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T13:25:13+08:00 ] 120.27.153.16 122.233.201.84 GET //market/Public/upload/file/2016-10-07/57f738f87a672.jpg
+[ log ] 120.27.153.16//market/Public/upload/file/2016-10-07/57f738f87a672.jpg [运行时间：0.015215s][吞吐率：65.72req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-10-07/57f738f87a672_jpg' => '',
+  'file' => '2016-10-07',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T13:25:13+08:00 ] 120.27.153.16 122.233.201.84 GET //market/Public/upload/file/2016-08-30/57c51e0a31d28.jpg
+[ log ] 120.27.153.16//market/Public/upload/file/2016-08-30/57c51e0a31d28.jpg [运行时间：0.017918s][吞吐率：55.81req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-08-30/57c51e0a31d28_jpg' => '',
+  'file' => '2016-08-30',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T13:25:13+08:00 ] 120.27.153.16 122.233.201.84 GET //market/Public/upload/file/2016-10-21/5809b6c68b455.png
+[ log ] 120.27.153.16//market/Public/upload/file/2016-10-21/5809b6c68b455.png [运行时间：0.022628s][吞吐率：44.19req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-10-21/5809b6c68b455_png' => '',
+  'file' => '2016-10-21',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T13:37:54+08:00 ] 120.27.153.16 122.233.201.84 GET //market/Public/upload/file/20160716/1468634849133823.png
+[ log ] 120.27.153.16//market/Public/upload/file/20160716/1468634849133823.png [运行时间：0.004043s][吞吐率：247.35req/s] [内存消耗：337.24kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/20160716/1468634849133823_png' => '',
+  'file' => '20160716',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T14:51:37+08:00 ] 120.27.153.16 115.198.141.117 POST /market/api/login
+[ log ] 120.27.153.16/market/api/login [运行时间：0.004308s][吞吐率：232.13req/s] [内存消耗：336.98kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'api',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-none-match' => 'W/"9010-1484290324000"',
+  'if-modified-since' => 'Fri, 13 Jan 2017 06:52:04 GMT+00:00',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; MI 4LTE MIUI/V8.0.2.0.MXDCNDG)',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'content-length' => '74',
+)
+[ info ] [ PARAM ] array (
+  '/market/api/login' => '',
+  'token' => 'a292117c7e98241d13fdb2b377486bce',
+  'password' => '',
+  'code' => '',
+  'mobile' => '15858188264',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T14:52:01+08:00 ] 120.27.153.16 115.198.141.117 POST /market/api/login
+[ log ] 120.27.153.16/market/api/login [运行时间：0.007076s][吞吐率：141.32req/s] [内存消耗：336.94kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'api',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-none-match' => 'W/"9010-1484290324000"',
+  'if-modified-since' => 'Fri, 13 Jan 2017 06:52:04 GMT+00:00',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; MI 4LTE MIUI/V8.0.2.0.MXDCNDG)',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'content-length' => '74',
+)
+[ info ] [ PARAM ] array (
+  '/market/api/login' => '',
+  'token' => 'a292117c7e98241d13fdb2b377486bce',
+  'password' => '',
+  'code' => '',
+  'mobile' => '15858188264',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:56:39+08:00 ] 120.27.153.16 140.205.201.40 POST /tnjfirplhxyc
+[ log ] 120.27.153.16:80/tnjfirplhxyc [运行时间：0.005483s][吞吐率：182.38req/s] [内存消耗：335.48kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'tnjfirplhxyc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '22',
+  'host' => '120.27.153.16:80',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+  '/tnjfirplhxyc' => '',
+  '{"aliyun":_"vulntest"}' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:56:39+08:00 ] 120.27.153.16 140.205.201.40 GET /tnjfirplhxyc
+[ log ] 120.27.153.16:80/tnjfirplhxyc [运行时间：0.005285s][吞吐率：189.21req/s] [内存消耗：335.13kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'tnjfirplhxyc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+  '/tnjfirplhxyc' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:56:39+08:00 ] 120.27.153.16 140.205.201.40 DELETE /tnjfirplhxyc
+[ log ] 120.27.153.16:80/tnjfirplhxyc [运行时间：0.005021s][吞吐率：199.16req/s] [内存消耗：335.31kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'tnjfirplhxyc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+  '/tnjfirplhxyc' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:56:44+08:00 ] 120.27.153.16 140.205.201.40 GET /warning
+[ log ] 120.27.153.16:80/warning [运行时间：0.006023s][吞吐率：166.03req/s] [内存消耗：335.61kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'warning',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/warning' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:58:21+08:00 ] 120.27.153.16 140.205.201.40 GET /pleasereadthis
+[ log ] 120.27.153.16:80/pleasereadthis [运行时间：0.006483s][吞吐率：154.25req/s] [内存消耗：335.59kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pleasereadthis',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/pleasereadthis' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:59:37+08:00 ] 120.27.153.16 140.205.201.40 GET /phpmyadmin/index.php
+[ log ] 120.27.153.16:80/phpmyadmin/index.php [运行时间：0.004197s][吞吐率：238.27req/s] [内存消耗：336.06kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/phpmyadmin/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/phpmyadmin/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:59:37+08:00 ] 120.27.153.16 140.205.201.40 GET /phpMyAdmin/index.php
+[ log ] 120.27.153.16:80/phpMyAdmin/index.php [运行时间：0.006732s][吞吐率：148.54req/s] [内存消耗：336.06kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/phpMyAdmin/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:59:37+08:00 ] 120.27.153.16 140.205.201.40 GET /pma/index.php
+[ log ] 120.27.153.16:80/pma/index.php [运行时间：0.006455s][吞吐率：154.91req/s] [内存消耗：336.02kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pma',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/pma/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/pma/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:59:37+08:00 ] 120.27.153.16 140.205.201.40 GET /pmd/index.php
+[ log ] 120.27.153.16:80/pmd/index.php [运行时间：0.006271s][吞吐率：159.46req/s] [内存消耗：336.02kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pmd',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/pmd/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/pmd/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T15:59:54+08:00 ] 120.27.153.16 140.205.201.40 GET /please_read/_search
+[ log ] 120.27.153.16:80/please_read/_search [运行时间：0.006788s][吞吐率：147.32req/s] [内存消耗：335.70kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'please_read',
+    1 => '_search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/please_read/_search' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:00:10+08:00 ] 120.27.153.16 140.205.201.40 GET /phpmyadmin/index.php
+[ log ] 120.27.153.16:80/phpmyadmin/index.php [运行时间：0.006589s][吞吐率：151.77req/s] [内存消耗：336.06kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpmyadmin',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/phpmyadmin/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/phpmyadmin/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:00:10+08:00 ] 120.27.153.16 140.205.201.40 GET /phpMyAdmin/index.php
+[ log ] 120.27.153.16:80/phpMyAdmin/index.php [运行时间：0.006489s][吞吐率：154.11req/s] [内存消耗：336.06kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/phpMyAdmin/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/phpMyAdmin/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:00:10+08:00 ] 120.27.153.16 140.205.201.40 GET /pma/index.php
+[ log ] 120.27.153.16:80/pma/index.php [运行时间：0.006429s][吞吐率：155.55req/s] [内存消耗：336.02kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pma',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/pma/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/pma/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:00:10+08:00 ] 120.27.153.16 140.205.201.40 GET /pmd/index.php
+[ log ] 120.27.153.16:80/pmd/index.php [运行时间：0.006730s][吞吐率：148.59req/s] [内存消耗：336.02kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pmd',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16:80',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.p)',
+  'referer' => 'http://120.27.153.16:80/pmd/index.php',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+  '/pmd/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:00:26+08:00 ] 120.27.153.16 140.205.201.40 GET /about/
+[ log ] 120.27.153.16:80/about/ [运行时间：0.005533s][吞吐率：180.73req/s] [内存消耗：335.58kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'about',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/about/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:01:28+08:00 ] 120.27.153.16 140.205.201.40 GET /clusters.jsf
+[ log ] 120.27.153.16:80/clusters.jsf [运行时间：0.006027s][吞吐率：165.92req/s] [内存消耗：335.59kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'clusters.jsf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/clusters_jsf' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:05:36+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006614s][吞吐率：151.20req/s] [内存消耗：432.17kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:05:55+08:00 ] 120.27.153.16 140.205.201.40 GET /hwi/
+[ log ] 120.27.153.16:80/hwi/ [运行时间：0.005662s][吞吐率：176.62req/s] [内存消耗：335.60kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hwi',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/hwi/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:06:01+08:00 ] 120.27.153.16 140.205.201.40 POST /
+[ log ] 120.27.153.16/ [运行时间：0.004041s][吞吐率：247.47req/s] [内存消耗：432.47kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '431',
+  'host' => '120.27.153.16',
+  'content-type' => 'multipart/form-data; boundary=-333053153',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812.struts-s2-046)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:06:54+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006375s][吞吐率：156.86req/s] [内存消耗：432.17kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:11:15+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.007182s][吞吐率：139.24req/s] [内存消耗：432.17kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:11:28+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006417s][吞吐率：155.84req/s] [内存消耗：432.17kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:11:56+08:00 ] 120.27.153.16 140.205.201.40 GET /jobs/
+[ log ] 120.27.153.16:80/jobs/ [运行时间：0.005517s][吞吐率：181.26req/s] [内存消耗：335.60kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jobs',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/jobs/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:12:11+08:00 ] 120.27.153.16 140.205.201.40 GET /ganglia/index.php
+[ log ] 120.27.153.16:80/ganglia/index.php [运行时间：0.006320s][吞吐率：158.23req/s] [内存消耗：335.70kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ganglia',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/ganglia/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:12:30+08:00 ] 120.27.153.16 140.205.201.40 GET /index.php
+[ log ] 120.27.153.16:80/index.php [运行时间：0.006399s][吞吐率：156.28req/s] [内存消耗：432.20kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:02+08:00 ] 120.27.153.16 140.205.201.40 GET /rs-status
+[ log ] 120.27.153.16:80/rs-status [运行时间：0.005920s][吞吐率：168.91req/s] [内存消耗：335.63kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rs-status',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/rs-status' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:07+08:00 ] 120.27.153.16 140.205.201.40 GET /master-status
+[ log ] 120.27.153.16:80/master-status [运行时间：0.007187s][吞吐率：139.14req/s] [内存消耗：335.61kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'master-status',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/master-status' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:08+08:00 ] 120.27.153.16 140.205.201.40 GET /dfshealth.html
+[ log ] 120.27.153.16:80/dfshealth.html [运行时间：0.005646s][吞吐率：177.12req/s] [内存消耗：335.63kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dfshealth',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/dfshealth_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:09+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16/ [运行时间：0.004273s][吞吐率：234.03req/s] [内存消耗：433.05kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:09+08:00 ] 120.27.153.16 140.205.201.40 POST /
+[ log ] 120.27.153.16/ [运行时间：0.005124s][吞吐率：195.16req/s] [内存消耗：433.46kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:10+08:00 ] 120.27.153.16 140.205.201.40 GET /dfshealth.jsp
+[ log ] 120.27.153.16:80/dfshealth.jsp [运行时间：0.005446s][吞吐率：183.61req/s] [内存消耗：335.61kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dfshealth.jsp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/dfshealth_jsp' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:11+08:00 ] 120.27.153.16 140.205.201.40 GET /hadoop/dfshealth.jsp
+[ log ] 120.27.153.16:80/hadoop/dfshealth.jsp [运行时间：0.005567s][吞吐率：179.64req/s] [内存消耗：335.69kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hadoop',
+    1 => 'dfshealth.jsp',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/hadoop/dfshealth_jsp' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:12+08:00 ] 120.27.153.16 140.205.201.40 GET /solr/
+[ log ] 120.27.153.16:80/solr/ [运行时间：0.008839s][吞吐率：113.14req/s] [内存消耗：335.60kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'solr',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/solr/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:13+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006778s][吞吐率：147.54req/s] [内存消耗：432.17kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:15+08:00 ] 120.27.153.16 140.205.201.40 GET /info
+[ log ] 120.27.153.16:80/info [运行时间：0.006120s][吞吐率：163.40req/s] [内存消耗：335.60kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'info',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/info' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:35+08:00 ] 120.27.153.16 140.205.201.40 GET /j_acegi_security_check
+[ log ] 120.27.153.16:80/j_acegi_security_check [运行时间：0.004342s][吞吐率：230.30req/s] [内存消耗：335.71kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'j_acegi_security_check',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/j_acegi_security_check' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:55+08:00 ] 120.27.153.16 140.205.201.40 GET /admin/
+[ log ] 120.27.153.16:80/admin/ [运行时间：0.005125s][吞吐率：195.12req/s] [内存消耗：429.32kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => 'Basic MTox',
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T16:13:56+08:00 ] 120.27.153.16 140.205.201.40 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.008104s][吞吐率：123.39req/s] [内存消耗：432.37kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => 'Basic MTox',
+  'referer' => 'http://120.27.153.16/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.5448812)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:24+08:00 ] 120.27.153.16 140.205.225.187 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] 120.27.153.16:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.010421s][吞吐率：95.96req/s] [内存消耗：434.70kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '171',
+  'host' => '120.27.153.16:80',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.phpcmsv9-register-upload)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'wxWdDKqt',
+  'password' => 'wxWdDKqt',
+  'email' => 'wxWdDKqt@aliyun.com',
+  'info' => 
+  array (
+    'content' => '',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:25+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html
+[ log ] 120.27.153.16/home/upload/comics_detail.html [运行时间：0.018655s][吞吐率：53.61req/s] [内存消耗：590.22kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002047s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = null GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = null [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` IS NULL  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001982s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.001767s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` IS NULL LIMIT 1 [ RunTime:0.000413s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:25+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html
+[ log ] 120.27.153.16/home/upload/new_chapter.html [运行时间：0.003585s][吞吐率：278.93req/s] [内存消耗：417.96kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ VIEW ] /home/wwwroot/default/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:25+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16/ [运行时间：0.007164s][吞吐率：139.59req/s] [内存消耗：433.05kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:40+08:00 ] 120.27.153.16 140.205.225.187 POST /ilyvwgbtnhdu
+[ log ] 120.27.153.16:80/ilyvwgbtnhdu [运行时间：0.003723s][吞吐率：268.59req/s] [内存消耗：335.45kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ilyvwgbtnhdu',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'content-length' => '22',
+  'host' => '120.27.153.16:80',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+  '/ilyvwgbtnhdu' => '',
+  '{"aliyun":_"vulntest"}' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:40+08:00 ] 120.27.153.16 140.205.225.187 GET /ilyvwgbtnhdu
+[ log ] 120.27.153.16:80/ilyvwgbtnhdu [运行时间：0.003994s][吞吐率：250.38req/s] [内存消耗：335.13kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ilyvwgbtnhdu',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+  '/ilyvwgbtnhdu' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:40+08:00 ] 120.27.153.16 140.205.225.187 DELETE /ilyvwgbtnhdu
+[ log ] 120.27.153.16:80/ilyvwgbtnhdu [运行时间：0.006366s][吞吐率：157.08req/s] [内存消耗：335.31kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ilyvwgbtnhdu',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+  '/ilyvwgbtnhdu' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:40+08:00 ] 120.27.153.16 140.205.225.187 POST /home/upload/comics_detail.html
+[ log ] 120.27.153.16/home/upload/comics_detail.html [运行时间：0.015670s][吞吐率：63.82req/s] [内存消耗：590.75kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.001981s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = null GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = null [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` IS NULL  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` IS NULL LIMIT 1 [ RunTime:0.000157s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:40+08:00 ] 120.27.153.16 140.205.225.187 POST /home/upload/new_chapter.html
+[ log ] 120.27.153.16/home/upload/new_chapter.html [运行时间：0.002571s][吞吐率：388.94req/s] [内存消耗：418.49kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ VIEW ] /home/wwwroot/default/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:41+08:00 ] 120.27.153.16 140.205.225.187 POST /
+[ log ] 120.27.153.16/ [运行时间：0.003959s][吞吐率：252.59req/s] [内存消耗：433.46kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.27.153.16',
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'content-type' => '${(\\u0023a1=333053153\\u0029\\u002e(#a2=1234567890).(#a3=#a1+#a2).(#a4=\'ttpS\\u0065rvletR\\u0065sponse\').(#a6=\'com.op\\u0065nsympho\').(#a5=\'ny.x\\u0077ork2.disp\\u0061tcher.H\').(#a7=#a6+#a5+#a4).(#a8=\'un\').(#a9=\'_\\u0061liy\').(#a10=#a9+#a8).(#x1=#cont\\u0065xt[#a7].getWr\\u0069ter()).(#x1.pr\\u0069nt(#a3+#a10)).(#x1.cl\\u006fse())}%0d%0a%20multipart/form-data',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:11:41+08:00 ] 120.27.153.16 140.205.225.187 GET /index.php
+[ log ] 120.27.153.16:80/index.php [运行时间：0.004033s][吞吐率：247.96req/s] [内存消耗：432.26kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:12:21+08:00 ] 120.27.153.16 140.205.225.187 GET /index.php?m=wap&a=index&siteid=1
+[ log ] 120.27.153.16:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.004987s][吞吐率：200.52req/s] [内存消耗：432.94kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:12:21+08:00 ] 120.27.153.16 140.205.225.187 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ log ] 120.27.153.16:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.006120s][吞吐率：163.40req/s] [内存消耗：433.84kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&amp;id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&amp;m=1&amp;f=test&amp;modelid=2&amp;catid=6',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:12:21+08:00 ] 120.27.153.16 140.205.225.187 GET /index.php?m=content&c=down&a_k=
+[ log ] 120.27.153.16:80/index.php?m=content&c=down&a_k= [运行时间：0.005617s][吞吐率：178.03req/s] [内存消耗：433.11kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '120.27.153.16:80',
+  'cookie' => '',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:12:21+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd
+[ log ] 120.27.153.16/home/upload/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd [运行时间：0.003390s][吞吐率：294.98req/s] [内存消耗：400.36kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'spaces',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/spaces/viewdefaultdecorator_action' => '',
+  'decoratorName' => 'file:///etc/passwd',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:12:21+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd
+[ log ] 120.27.153.16/home/upload/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd [运行时间：0.006685s][吞吐率：149.59req/s] [内存消耗：400.36kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'spaces',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/spaces/viewdefaultdecorator_action' => '',
+  'decoratorName' => 'file:///etc/passwd',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:12:30+08:00 ] 120.27.153.16 140.205.225.187 GET /spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd
+[ log ] 120.27.153.16/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd [运行时间：0.005803s][吞吐率：172.32req/s] [内存消耗：336.09kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'spaces',
+    1 => 'viewdefaultdecorator.action',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/spaces/viewdefaultdecorator_action' => '',
+  'decoratorName' => 'file:///etc/passwd',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:13:14+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3 [运行时间：0.012284s][吞吐率：81.41req/s] [内存消耗：594.48kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000174s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:13:15+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3 [运行时间：0.014630s][吞吐率：68.35req/s] [内存消耗：580.40kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.002249s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001994s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000544s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:13:30+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16/ [运行时间：0.006236s][吞吐率：160.36req/s] [内存消耗：432.13kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:14:13+08:00 ] 120.27.153.16 140.205.225.187 HEAD /home/upload/new_chapter.html?book=3
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3 [运行时间：0.008156s][吞吐率：122.61req/s] [内存消耗：580.30kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000627s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:14:13+08:00 ] 120.27.153.16 140.205.225.187 HEAD /home/upload/comics_detail.html?id=3
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3 [运行时间：0.016768s][吞吐率：59.64req/s] [内存消耗：594.41kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001351s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000175s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:14:20+08:00 ] 120.27.153.16 140.205.225.187 HEAD /
+[ log ] 120.27.153.16/ [运行时间：0.006685s][吞吐率：149.59req/s] [内存消耗：432.05kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:08+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/'%22+onmouseover=alert()+d='%22
+[ log ] 120.27.153.16/home/upload/'%22+onmouseover=alert()+d='%22 [运行时间：0.005439s][吞吐率：183.86req/s] [内存消耗：400.09kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '\'"+onmouseover=alert()+d=\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"_onmouseover' => 'alert() d=\'&quot;',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:09+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/'%22+onmouseover=alert()+d='%22
+[ log ] 120.27.153.16/home/upload/'%22+onmouseover=alert()+d='%22 [运行时间：0.007064s][吞吐率：141.57req/s] [内存消耗：400.09kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '\'"+onmouseover=alert()+d=\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"_onmouseover' => 'alert() d=\'&quot;',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:12+08:00 ] 120.27.153.16 140.205.225.187 GET /'%22+onmouseover=alert()+d='%22
+[ log ] 120.27.153.16/'%22+onmouseover=alert()+d='%22 [运行时间：0.006582s][吞吐率：151.93req/s] [内存消耗：339.02kb] [文件加载：27]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: path[/home/wwwroot/default/thinkphp/library/think/Route.php:1289]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:25+08:00 ] 120.27.153.16 140.205.225.187 GET /master-status
+[ log ] 120.27.153.16:80/master-status [运行时间：0.009320s][吞吐率：107.30req/s] [内存消耗：335.63kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'master-status',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/master-status' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:45+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+[ log ] 120.27.153.16/home/upload/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22 [运行时间：0.006523s][吞吐率：153.31req/s] [内存消耗：400.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '\'" onmouseover=alert() d=\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"_onmouseover' => 'alert() d=\'&quot;',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:46+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+[ log ] 120.27.153.16/home/upload/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22 [运行时间：0.005841s][吞吐率：171.20req/s] [内存消耗：400.13kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '\'" onmouseover=alert() d=\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"_onmouseover' => 'alert() d=\'&quot;',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:48+08:00 ] 120.27.153.16 140.205.225.187 GET /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+[ log ] 120.27.153.16/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22 [运行时间：0.006492s][吞吐率：154.04req/s] [内存消耗：339.06kb] [文件加载：27]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: path[/home/wwwroot/default/thinkphp/library/think/Route.php:1289]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:15:50+08:00 ] 120.27.153.16 140.205.225.187 GET /dfshealth.html
+[ log ] 120.27.153.16:80/dfshealth.html [运行时间：0.005639s][吞吐率：177.33req/s] [内存消耗：335.65kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dfshealth',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/dfshealth_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:16:13+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+[ log ] 120.27.153.16/home/upload/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522 [运行时间：0.007015s][吞吐率：142.55req/s] [内存消耗：400.30kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"_onmouseover=alert()_d=\'"' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:16:14+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+[ log ] 120.27.153.16/home/upload/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522 [运行时间：0.003722s][吞吐率：268.68req/s] [内存消耗：400.30kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"_onmouseover=alert()_d=\'"' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:16:15+08:00 ] 120.27.153.16 140.205.225.187 GET /%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+[ log ] 120.27.153.16/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522 [运行时间：0.005833s][吞吐率：171.44req/s] [内存消耗：335.87kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/\'"_onmouseover=alert()_d=\'"' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:16:49+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+[ log ] 120.27.153.16/home/upload/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E [运行时间：0.007075s][吞吐率：141.34req/s] [内存消耗：400.16kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:16:52+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+[ log ] 120.27.153.16/home/upload/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E [运行时间：0.007822s][吞吐率：127.84req/s] [内存消耗：400.19kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:16:56+08:00 ] 120.27.153.16 140.205.225.187 GET /'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+[ log ] 120.27.153.16/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E [运行时间：0.004835s][吞吐率：206.82req/s] [内存消耗：335.88kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '\'"',
+    1 => '><',
+    2 => 'script><script>alert()<',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:17:40+08:00 ] 120.27.153.16 140.205.225.187 GET /about/
+[ log ] 120.27.153.16:80/about/ [运行时间：0.005902s][吞吐率：169.44req/s] [内存消耗：335.60kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'about',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/about/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:18:34+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+[ log ] 120.27.153.16/home/upload/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E [运行时间：0.006037s][吞吐率：165.65req/s] [内存消耗：400.45kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:18:36+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+[ log ] 120.27.153.16/home/upload/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E [运行时间：0.005465s][吞吐率：182.98req/s] [内存消耗：400.46kb] [文件加载：35]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => '%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:18:46+08:00 ] 120.27.153.16 140.205.225.187 GET /%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+[ log ] 120.27.153.16/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E [运行时间：0.005836s][吞吐率：171.35req/s] [内存消耗：336.05kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:19:00+08:00 ] 120.27.153.16 140.205.225.187 GET /dfshealth.jsp
+[ log ] 120.27.153.16:80/dfshealth.jsp [运行时间：0.006024s][吞吐率：166.00req/s] [内存消耗：335.65kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dfshealth.jsp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/dfshealth_jsp' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:19:37+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3i4015170i
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3i4015170i [运行时间：0.013446s][吞吐率：74.37req/s] [内存消耗：594.48kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000188s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:19:40+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3i4015170i
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3i4015170i [运行时间：0.010367s][吞吐率：96.46req/s] [内存消耗：580.39kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000271s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:19:44+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16/ [运行时间：0.005897s][吞吐率：169.58req/s] [内存消耗：432.13kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:19:45+08:00 ] 120.27.153.16 140.205.225.187 GET /hadoop/dfshealth.jsp
+[ log ] 120.27.153.16:80/hadoop/dfshealth.jsp [运行时间：0.004320s][吞吐率：231.49req/s] [内存消耗：335.74kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hadoop',
+    1 => 'dfshealth.jsp',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/hadoop/dfshealth_jsp' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:20:46+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3i4015170i
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3i4015170i [运行时间：0.017975s][吞吐率：55.63req/s] [内存消耗：594.48kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002092s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001660s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001870s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000190s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:20:48+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3i4015170i
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3i4015170i [运行时间：0.009743s][吞吐率：102.64req/s] [内存消耗：580.39kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000316s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:21:33+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3i4015170i
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3i4015170i [运行时间：0.013523s][吞吐率：73.95req/s] [内存消耗：594.47kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002034s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000197s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:21:35+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3i4015170i
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3i4015170i [运行时间：0.010421s][吞吐率：95.96req/s] [内存消耗：580.39kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001984s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000209s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:22:01+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3i4015170i
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3i4015170i [运行时间：0.020231s][吞吐率：49.43req/s] [内存消耗：594.48kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000292s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:22:10+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3i4015170i
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3i4015170i [运行时间：0.007976s][吞吐率：125.38req/s] [内存消耗：580.39kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000307s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000201s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:22:34+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3 [运行时间：0.017957s][吞吐率：55.69req/s] [内存消耗：594.45kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002431s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000258s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:22:38+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3 [运行时间：0.013084s][吞吐率：76.43req/s] [内存消耗：580.40kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001715s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000612s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:22:59+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg== [运行时间：0.011004s][吞吐率：90.88req/s] [内存消耗：590.42kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => 'PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 0 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 0 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 0  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 0 LIMIT 1 [ RunTime:0.000185s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:23:03+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg== [运行时间：0.010829s][吞吐率：92.34req/s] [内存消耗：577.50kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => 'PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.002140s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 0 LIMIT 1 [ RunTime:0.000198s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:23:26+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006309s][吞吐率：158.50req/s] [内存消耗：432.23kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:23:42+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4 [运行时间：0.016269s][吞吐率：61.47req/s] [内存消耗：590.42kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => 'amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002104s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 0 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 0 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001853s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 0  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 0 LIMIT 1 [ RunTime:0.000186s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:23:42+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4 [运行时间：0.013994s][吞吐率：71.46req/s] [内存消耗：577.49kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => 'amF2YXNjcmlwdDpwcm9tcHQoMTExKTt4',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.002127s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001887s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 0 LIMIT 1 [ RunTime:0.000512s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:25:35+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/comics_detail.html?id=3i4015170i
+[ log ] 120.27.153.16/home/upload/comics_detail.html?id=3i4015170i [运行时间：0.015705s][吞吐率：63.67req/s] [内存消耗：594.48kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'comics_detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/comics_detail.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/comics_detail_html' => '',
+  'id' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->comics_detail[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/comics_detail.html [ array (
+  0 => 'list1',
+  1 => 'chapter',
+  2 => 'book',
+  3 => 'book_tag',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_image` [ RunTime:0.002103s ]
+[ sql ] [ SQL ] SELECT `zid` FROM `xx_comics_image` WHERE  `tid` = 3 GROUP BY zid ORDER BY zid desc LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_image` WHERE  `tid` = 3 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_chapter` WHERE  `comics` = 3  AND `isValid` = 1 ORDER BY no asc [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_tag` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics_tag` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.000192s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:25:35+08:00 ] 120.27.153.16 140.205.225.187 GET /home/upload/new_chapter.html?book=3i4015170i
+[ log ] 120.27.153.16/home/upload/new_chapter.html?book=3i4015170i [运行时间：0.007295s][吞吐率：137.08req/s] [内存消耗：580.39kb] [文件加载：41]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'new_chapter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/home/upload/new_chapter.html',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/home/upload/new_chapter_html' => '',
+  'book' => '3i4015170i',
+)
+[ info ] [ RUN ] app\home\controller\Upload->new_chapter[ /home/wwwroot/default/application/home/controller/Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/upload/new_chapter.html [ array (
+  0 => 'comics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:dbname=thinkphp;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT * FROM `xx_comics` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xx_comics_chapter` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT MAX(no) AS tp_max FROM `xx_comics_chapter` WHERE  `isValid` = 1  AND `comics` = 3 LIMIT 1 [ RunTime:0.000214s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T17:27:34+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006646s][吞吐率：150.46req/s] [内存消耗：432.23kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:30:06+08:00 ] 120.27.153.16 140.205.225.187 GET /spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd
+[ log ] 120.27.153.16:80/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd [运行时间：0.007108s][吞吐率：140.69req/s] [内存消耗：336.16kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'spaces',
+    1 => 'viewdefaultdecorator.action',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/spaces/viewdefaultdecorator_action' => '',
+  'decoratorName' => 'file:///etc/passwd',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:31:43+08:00 ] 120.27.153.16 140.205.225.187 GET /phmad/js/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd
+[ log ] 120.27.153.16/phmad/js/spaces/viewdefaultdecorator.action?decoratorName=file:///etc/passwd [运行时间：0.005669s][吞吐率：176.40req/s] [内存消耗：336.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phmad',
+    1 => 'js',
+    2 => 'spaces',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/phmad/js/spaces/viewdefaultdecorator_action' => '',
+  'decoratorName' => 'file:///etc/passwd',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:38:17+08:00 ] 120.27.153.16 140.205.225.187 GET /clusters.jsf
+[ log ] 120.27.153.16:80/clusters.jsf [运行时间：0.003466s][吞吐率：288.53req/s] [内存消耗：335.63kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'clusters.jsf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/clusters_jsf' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:40:24+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.007767s][吞吐率：128.75req/s] [内存消耗：432.23kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:41:28+08:00 ] 120.27.153.16 140.205.225.187 GET /hwi/
+[ log ] 120.27.153.16:80/hwi/ [运行时间：0.006424s][吞吐率：155.67req/s] [内存消耗：335.66kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hwi',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/hwi/' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:43:42+08:00 ] 120.27.153.16 119.23.127.40 GET /
+[ log ] 120.11.68.102:80/ [运行时间：0.006604s][吞吐率：151.42req/s] [内存消耗：431.60kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '120.11.68.102:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:43:51+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.006030s][吞吐率：165.84req/s] [内存消耗：432.23kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:54:26+08:00 ] 120.27.153.16 140.205.225.187 GET /phmad/js/'%22+onmouseover=alert()+d='%22
+[ log ] 120.27.153.16/phmad/js/'%22+onmouseover=alert()+d='%22 [运行时间：0.003591s][吞吐率：278.47req/s] [内存消耗：335.88kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phmad',
+    1 => 'js',
+    2 => '\'"+onmouseover=alert()+d=\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/phmad/js/\'"_onmouseover' => 'alert() d=\'&quot;',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:55:16+08:00 ] 120.27.153.16 140.205.225.187 GET /phmad/js/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+[ log ] 120.27.153.16/phmad/js/%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22 [运行时间：0.004714s][吞吐率：212.13req/s] [内存消耗：335.90kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phmad',
+    1 => 'js',
+    2 => '\'" onmouseover=alert() d=\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/phmad/js/\'"_onmouseover' => 'alert() d=\'&quot;',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:55:54+08:00 ] 120.27.153.16 140.205.225.187 GET /phmad/js/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+[ log ] 120.27.153.16/phmad/js/%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522 [运行时间：0.006144s][吞吐率：162.76req/s] [内存消耗：336.07kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phmad',
+    1 => 'js',
+    2 => '%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/phmad/js/\'"_onmouseover=alert()_d=\'"' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T17:58:26+08:00 ] 120.27.153.16 140.205.225.187 GET /phmad/js/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+[ log ] 120.27.153.16/phmad/js/'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E [运行时间：0.006234s][吞吐率：160.41req/s] [内存消耗：335.92kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phmad',
+    1 => 'js',
+    2 => '\'"',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/phmad/js/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T18:00:20+08:00 ] 120.27.153.16 140.205.225.187 GET /phmad/js/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+[ log ] 120.27.153.16/phmad/js/%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E [运行时间：0.005787s][吞吐率：172.80req/s] [内存消耗：336.16kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phmad',
+    1 => 'js',
+    2 => '%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/phmad/js/\'"/></script><script>alert()</script>' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T18:01:55+08:00 ] 120.27.153.16 140.205.225.187 GET /admin/
+[ log ] 120.27.153.16:80/admin/ [运行时间：0.005090s][吞吐率：196.46req/s] [内存消耗：429.35kb] [文件加载：37]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => 'Basic MTox',
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T18:02:03+08:00 ] 120.27.153.16 140.205.225.187 GET /
+[ log ] 120.27.153.16:80/ [运行时间：0.003891s][吞吐率：257.00req/s] [内存消耗：432.43kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'authorization' => 'Basic MTox',
+  'referer' => 'http://120.27.153.16/phmad/js/get_image.js.php',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.4015170)',
+  'host' => '120.27.153.16:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T18:54:12+08:00 ] 120.27.153.16 118.178.228.154 GET /
+[ log ] 101.37.34.84:80/ [运行时间：0.006400s][吞吐率：156.25req/s] [内存消耗：431.61kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '101.37.34.84:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T21:01:46+08:00 ] 120.27.153.16 183.128.161.182 GET /market/Public/home/img/auto_empty.jpg
+[ log ] 120.27.153.16/market/Public/home/img/auto_empty.jpg [运行时间：0.005602s][吞吐率：178.50req/s] [内存消耗：337.13kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com:8088/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/home/img/auto_empty_jpg' => '',
+  'img' => 'auto_empty.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T21:01:46+08:00 ] 120.27.153.16 183.128.161.182 GET //market/Public/upload/file/2016-10-21/5809b6c68b455.png
+[ log ] 120.27.153.16//market/Public/upload/file/2016-10-21/5809b6c68b455.png [运行时间：0.005650s][吞吐率：177.00req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com:8088/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-10-21/5809b6c68b455_png' => '',
+  'file' => '2016-10-21',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T21:01:46+08:00 ] 120.27.153.16 183.128.161.182 GET //market/Public/upload/file/2016-12-23/585ceaaa60d7e.png
+[ log ] 120.27.153.16//market/Public/upload/file/2016-12-23/585ceaaa60d7e.png [运行时间：0.008751s][吞吐率：114.27req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com:8088/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-12-23/585ceaaa60d7e_png' => '',
+  'file' => '2016-12-23',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T21:01:46+08:00 ] 120.27.153.16 183.128.161.182 GET //market/Public/upload/file/2016-10-07/57f738f87a672.jpg
+[ log ] 120.27.153.16//market/Public/upload/file/2016-10-07/57f738f87a672.jpg [运行时间：0.004808s][吞吐率：207.99req/s] [内存消耗：337.23kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'market',
+    1 => 'Public',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5',
+  'referer' => 'http://ceshi.edianlai.com:8088/market/admin/index/index.html',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '120.27.153.16',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  '/market/Public/upload/file/2016-10-07/57f738f87a672_jpg' => '',
+  'file' => '2016-10-07',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T21:23:32+08:00 ] 120.27.153.16 120.209.136.90 GET /pmd
+[ log ] 120.27.153.16/pmd [运行时间：0.004486s][吞吐率：222.91req/s] [内存消耗：336.19kb] [文件加载：26]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pmd',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://120.27.153.16/pmd',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'host' => '120.27.153.16',
+)
+[ info ] [ PARAM ] array (
+  '/pmd' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T23:21:25+08:00 ] 120.27.153.16 23.247.72.114 GET /
+[ log ] www.9966bct.com/ [运行时间：0.006906s][吞吐率：144.81req/s] [内存消耗：431.87kb] [文件加载：34]
+[ info ] [ LANG ] /home/wwwroot/default/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.9966bct.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /home/wwwroot/default/application/home/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/default/application/home/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
