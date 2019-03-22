@@ -1,0 +1,208 @@
+{include file="public/header"/}
+<style>
+    .layui-form-switch {
+        padding-left: 0px;
+        transition: .1s linear;
+    }
+    .layui-table tr th{text-align: center;}
+    .layui-table tr td{text-align: center;}
+</style>
+<div class="main-wrap">
+    <blockquote class="layui-elem-quote fhui-admin-main_hd">
+        <h2>订单列表</h2>
+    </blockquote>
+    <div class="y-role">
+        <!--工具栏-->
+        <div id="floatHead" class="toolbar-wrap">
+            <div class="toolbar">
+                <div class="box-wrap">
+                    <a class="menu-btn"></a>
+                    <div class="l-list">
+
+                        <a class="layui-btn layui-btn-small do-action" data-type="doDelete" data-href="{:url('del_user')}"><i class="fa fa-trash-o"></i>删除</a>
+                        <a class="layui-btn layui-btn-small do-action" data-type="doRefresh" data-href=""><i class="fa fa-refresh fa-spin"></i>刷新</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/工具栏-->
+        <!--文字列表-->
+        <div class="fhui-admin-table-container">
+
+            <table class="layui-table">
+                <colgroup>
+                    <col width="5%">
+                    <col width="5%">
+                    <col width="10%">
+                    <col width="6%">
+                    <col width="6%">
+
+                    <col width="6%">
+                    <col width="6%">
+                    <col width="6%">
+                    <col width="12%">
+                    <col width="10%">
+                    <col width="10%">
+                    <col width="5%">
+                    <col width="8%">
+
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>
+
+                        <!--  <input type="checkbox" id="selected-all" style="position: absolute; opacity: 0;">-->
+                        <input type="checkbox" class="selected-all" id="selected-all">
+
+                    </th>
+                    <th>ID</th>
+                    <th>订单编号</th>
+                    <th>会员名</th>
+                    <th>交易类型</th>
+
+                    <th>支付金额</th>
+                    <th>积分/金币</th>
+                    <th>支付方式</th>
+                    <th>云通付交易流水号</th>
+                    <th>创建时间</th>
+
+                    <th>付款时间</th>
+                    <th>订单状态</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <script id="arlist" type="text/html">
+                    {{# for(var i=0;i<d.length;i++){  }}
+
+                    <tr class="long-td">
+                        <td>
+                            <input ids="3031" name="ck" type="checkbox" value="true">
+
+                            <!--<input id="ck" ids="3031" name="ck" type="checkbox" value="true">
+                            <input name="ck" type="hidden" value="false">-->
+                        </td>
+                        <td>{{d[i].id}}</td>
+                        <td>{{d[i].orderid}}</td>
+                        <td>{{d[i].username}}</td>
+                        <td>
+
+                            {{# if(d[i].type==1){ }}
+                            积分
+                            {{# }else { }}
+                            金币
+                            {{# } }}
+                        </td>
+                        <td class="text-navy">{{d[i].money}}</td>
+                        <td class="text-warning">{{d[i].points}}</td>
+                        <td>云通付</td>
+                        <td>
+                            {{# if(d[i].serial_umber==null){ }}
+                            ----
+                            {{# }else { }}
+                            {{d[i].serial_umber}}
+                            {{# } }}
+
+                        </td>
+                        <td>{{d[i].create_time}}</td>
+                        <td>
+                            {{# if(d[i].pay_time==null){ }}
+                            ----
+                            {{# }else { }}
+                            {{d[i].pay_time}}
+                            {{# } }}
+
+                        </td>
+                        <td>
+
+                            {{# if(d[i].status==1){ }}
+                                <a class="red" href="javascript:;" onclick="javascript:;">
+                                    <div id="zt{{d[i].id}}"><span class="label label-info">已付款</span></div>
+                                </a>
+                            {{# }else if(d[i].id!==2){ }}
+                                <a class="red" href="javascript:;" onclick="javascript:;">
+                                    <div id="zt{{d[i].id}}"><span class="label label-info">等待付款</span></div>
+                                </a>
+                            {{# }else{ }}
+                                <a class="red" href="javascript:;" onclick="javascript:;">
+                                    <div id="zt{{d[i].id}}"><span class="label label-danger">操作失败</span></div>
+                                </a>
+                            {{# } }}
+
+                        </td>
+                        <td>
+
+                            <a class="layui-btn layui-btn-small do-action" data-type="doDelOne" data-href="{:url('del_order')}" data-id="{{d[i].id}}">
+                                <i class="icon-edit  fa fa-pencil-square-o"></i>删除
+                            </a>
+
+                        </td>
+                    </tr>
+                    {{# } }}
+                </script>
+                <tbody id="article_list"></tbody>
+
+            </table>
+
+        </div>
+        <div id="AjaxPage" style="margin-top: -57px;float: right;"></div>
+        <div style="float: right;margin-top: -9px;margin-right: 13px;">
+            共{$count}条数据，<span id="allpage"></span>
+        </div>
+    </div>
+</div>
+
+{include file="public/footer"}
+<script>
+    /**
+     * [user_state 文章状态]
+     * @param  {[type]} val [description]
+     * @Author[jonny 980218641@qq.com]
+     */
+
+    var laytpl,laypage;
+    var url='{:url("Order/index")}';
+    var allpages='{$allpage}';
+    layui.use(['layer', 'laypage','common', 'icheck','laytpl'], function () {
+        var $ = layui.jquery
+                , layer = layui.layer
+                , common = layui.common;
+        laytpl =layui.laytpl;
+        laypage = layui.laypage;
+
+        common.Ajaxpage();
+
+        //加载单选框样式
+        $(("[type='checkbox']")).iCheck({
+            checkboxClass: 'icheckbox_square-green',
+
+        });
+
+        /*  //表格行点击勾选
+         $('.layui-table tbody tr').on('click', function () {
+         var $this = $(this);
+         var $input = $this.children('td').eq(0).find('input');
+         $input.on('ifChecked', function (e) {
+         $this.css('background-color', '#EEEEEE');
+         });
+         $input.on('ifUnchecked', function (e) {
+         $this.removeAttr('style');
+         });
+         $input.iCheck('toggle');
+         }).find('input').each(function () {
+         var $this = $(this);
+         $this.on('ifChecked', function (e) {
+         $this.parents('tr').css('background-color', '#EEEEEE');
+         });
+         $this.on('ifUnchecked', function (e) {
+         $this.parents('tr').removeAttr('style');
+         });
+         });*/
+        //全选
+        $(document).on('ifChanged','.selected-all', function (event) {
+            // alert(1);
+            var $input = $('.layui-table tbody tr td').find('input');
+            $input.iCheck(event.currentTarget.checked ? 'check' : 'uncheck');
+        });
+
+    });
+</script>

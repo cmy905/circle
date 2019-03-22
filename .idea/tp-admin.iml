@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../93sucai" />
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../demo" />
+    <content url="file://$MODULE_DIR$/../jonnycms" />
+    <content url="file://$MODULE_DIR$/../tp-admin" />
+    <content url="file://$MODULE_DIR$/../ybywzgl_v1.1.1" />
+    <content url="file://$MODULE_DIR$/../ziyanwang" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,1023 @@
+@charset "utf-8";
+/*---------------------------------
+Site:u17.com
+nameAuthor:zhyy
+Updated:2014/4/23
+Updated by:Name 
+---------------------------------*/
+.orange_f8e{color: #ff8e00 !important;}
+/*location*/
+.location{width:1200px; margin:0 auto; height:32px; line-height:32px; color:#333; position: relative;}
+.location .tip_list{float:right; height:32px; overflow:hidden}
+.location .tip_list a{background-position:0 -377px; padding-left:15px}
+/*comic_info*/
+.comic_info{background:url(../images/comicinfo/bg_comicinfo.png) no-repeat; height:415px; padding:0 8px 0 20px; margin-bottom:30px}
+/*--comic_info左--*/
+.comic_info .left{float:left; width:900px; position:relative; z-index:5}
+.comic_info .left .sign{ float:left; margin:16px 0 0 20px; _display:inline; font:28px/30px "Microsoft Yahei"}
+.comic_info .left_tag{ float:left; margin:23px 0 0 10px; line-height:21px; color:#999;}
+.comic_info h1{font:28px/32px "Microsoft Yahei",simhei,simsun; color:#333; padding:15px 0 15px 20px; position: relative;}
+.comic_info h1 span{color:#999; padding-left:10px; font:500 12px "宋体"; display:inline-block; vertical-align:middle}
+.comic_info .jb {background:none;padding-left: 24px;color: #999; float:right; margin:20px 15px 0 0; font-family: simsun; font-size: 12px;}
+.comic_info .jb i{display: inline-block; width: 18px; height: 16px; overflow: hidden;background: url(../../common/images/cs_ico.png) no-repeat 0 -496px; margin-right: 5px; position: relative; top:4px; *top:2px;}
+.comic_info .zhang { position: absolute;width: 112px;height: 90px;background: url(../images/comicinfo/zhang.png) no-repeat;right: 80px;top: -24px;}
+/*封面*/
+.comic_info .coverBox{width: 234px; float:left;}
+.comic_info .cover{position:relative; background:url(../images/comicinfo/bg_cover.png) no-repeat; width:224px; height:289px; padding:1px 0 0 10px;  z-index:3}
+.ico_trans{background:url(../images/comicinfo/ico_trans.png) no-repeat}
+.comic_info .ico_zhougeng{width:56px; height:60px; background-position:0 -275px; position:absolute; left:-8px; top:-2px}
+.comic_info .cover .box{float:left; margin-right:22px; display:inline}
+.comic_info .cover .bot{position:absolute; left:24px; bottom:17px; width:252px; display: none;}
+.comic_info .cover .bot .ico_trans{display:block; width:45px; height:45px; overflow:hidden}
+.comic_info .cover .bot .ico_trans:hover{background-position:0 -135px}
+.comic_info .cover .history .ico_trans{background-position:0 -45px}
+.comic_info .cover .history .ico_trans:hover{background-position:0 -180px}
+.comic_info .cover .feel .ico_trans{background-position:0 -90px}
+.comic_info .cover .feel .ico_trans:hover{background-position:0 -225px}
+/*历史封面弹框*/
+.comic_info .history_pop_box{position:absolute; width:1190px; height:415px; left:-20px; top:-3px; _top:-5px; z-index:12; display:none}
+.comic_info .history_pop_box .bg{background:url(../images/comicinfo/bg_cover_pop.png); opacity:0.9;filter:alpha(opacity=90); position:absolute; left:0; top:0; width:100%; height:100%}
+.comic_info .history_pop_box .close{position:absolute; width:20px; height:20px; background:url(../images/cs_pic.png) no-repeat 2px -70px; top:25px; right:15px; z-index:2}
+.comic_info .history_pop_box .close:hover{background-position:-18px -70px}
+.comic_info .history_pop_box .pop_con{position:absolute;left:0; top:0x; padding:20px}
+.comic_info .history_pop_box .pop_con h3{font:20px/32px "Microsoft Yahei"; color:#fff}
+.comic_info .history_pop_box .scroll_box{width:1170px; height:281px; overflow:hidden; margin-top:22px; position:relative}
+.comic_info .history_pop_box .scroll_comic{position:relative; width:1170px; height:281px; overflow:hidden}
+.comic_info .history_pop_box .scroll_comic ul{position:absolute; left:0; top:0}
+.comic_info .history_pop_box .scroll_box li{float:left; position:relative; margin-right:20px; width:214px; overflow:hidden}
+.comic_info .history_pop_box .scroll_box .comic_cover{display:block; background:#fff; border:1px solid #d4d4d4; padding:1px}
+.comic_info .history_pop_box .scroll_box .comic_cover:hover,.comic_info .history_pop_box .scroll_box li .curr{border-color:#6dad14}
+.comic_info .history_pop_box .scroll_box img{display:block; width:210px; height:277px}
+.comic_info .history_pop_box .ico_box{position:absolute; right:2px; top:12px; height:24; padding:0 5px; cursor:pointer}
+.comic_info .history_pop_box .ico_box em,.comic_info .history_pop_box .download_bot a{background:url(../images/cs_pic.png) no-repeat 0 4px; width:17px; height:24px; display:inline-block; position:relative; vertical-align:middle; float:left}
+.comic_info .history_pop_box .ico_box em,.comic_info .history_pop_box .cur{display: block !important;}
+.comic_info .history_pop_box .cai{top:38px}
+.comic_info .history_pop_box .cai em{background-position:-20px 4px}
+.comic_info .history_pop_box .zan2 em{background-position:0 -46px}
+.comic_info .history_pop_box .cai2 em{background-position:-20px -46px}
+.comic_info .history_pop_box .ico_box span{font:13px/24px "Arial"; color:#fff; position:relative; padding-left:3px; float:left; display:none}
+.comic_info .history_pop_box .scroll_box p i{background:#000; opacity:0.7; filter:alpha(opacity=70); position:absolute; left:0; top:0; height:24px; width:100%}
+.comic_info .history_pop_box .download_bot{position:absolute; left:1px; bottom:1px; height:38px; width:212px; display:none}
+.comic_info .history_pop_box .scroll_box .download_bot i{height:38px}
+.comic_info .history_pop_box .download_bot a{background-position:0 -20px; width:24px; height:24px;margin:7px 0 0 12px}
+.comic_info .history_pop_box .download_bot a:hover{background-position:-25px -20px}
+.comic_info .history_pop_box .download_bot span{float:right; font:14px/38px "Microsoft Yahei"; color:#fff; margin-right:10px; position:relative}
+.comic_info .history_pop_box .next{position:absolute; right:0; top:0; width:40px; height:281px; display:none}
+.comic_info .history_pop_box .next span{width:40px; height:280px;background:#000; opacity:0.3; filter:alpha(opacity=30); display:block; cursor:pointer}
+.comic_info .history_pop_box .next:hover span{opacity:0.7; filter:alpha(opacity=70)}
+.comic_info .history_pop_box .next i{background-position:0 -410px; width:15px; height:23px; position:absolute; left:12px; top:135px; cursor:pointer}
+/*感受弹框*/
+.comic_info .feel .pop_box{position:absolute; left:-15px; top:-229px; width:210px; height:226px; display:none}
+.comic_info .feel .pop_box .bg{background:#000; opacity:0.8; filter:alpha(opacity=80); background-position:0; left:0; top:0; width:210px; height:226px}
+#show_feel_div{position:absolute; left:0; top:0; z-index:2}
+#show_feel_div p{height:20px;line-height:20px;overflow:hidden;padding-top:13px;color:#fff; text-align:center; font-weight:bold; width:215px}
+#show_feel_div a{display:block;height:15px; overflow:hidden;position:absolute;text-decoration:none;text-indent:-9000px;width:15px;z-index:20;filter:alpha(opacity=80);opacity:0.8; background:url(../images/comicinfo/ico_feel.png) no-repeat}
+#show_feel_div a.feel_1{left:63px;top:55px}
+#show_feel_div a.feel_2{background-position:0 -15px;left:131px;top:55px}
+#show_feel_div a.feel_3{background-position:0 -30px;left:166px;top:116px}
+#show_feel_div a.feel_4{background-position:0 -45px;left:131px;top:176px}
+#show_feel_div a.feel_5{background-position:0 -60px;left:63px;top:176px}
+#show_feel_div a.feel_6{background-position:0 -75px;left:30px;top:116px}
+#show_feel_div a:hover{filter:alpha(opacity=100);opacity:1}
+
+/*作品详情*/
+.comic_info .info{float:right}
+.comic_info .left .info{float: left; width: 626px; margin-left: 14px;}
+.comic_info .left .info .top{font-size:14px; color:#666; border-bottom:1px dashed #999; padding:0 0 3px 15px; width:605px; line-height:34px; _padding-bottom:10px}
+.comic_info .left .info .top .line1{_padding:10px 0 12px;white-space:nowrap;}
+.comic_info .left .info .top .line1 span{color:#6dad15; padding-right:20px}
+.comic_info .left .info .top .line2 b{background:url(../images/cs_pic.png) no-repeat 0 -135px; display:inline-block; width:16px; height:12px; vertical-align:middle; margin-left:3px}
+.comic_info .left .info .top .line2 b.arrow_l{background-position:-20px -135px}
+.comic_info .left .info .top .line2 span{padding-right: 20px;}
+.comic_info .left .info .top i{color:#ff444f; padding-right:20px}
+.comic_info .left .info .top .more{display:inline-block;*display: inline;*zoom: 1; position:relative; z-index: 2; *padding-top: 10px;*padding-bottom: 1px;}
+.comic_info .left .info .top .more .btn{display:inline-block; width:40px; height:18px; vertical-align:middle; background-position:0 -90px}
+.comic_info .left .info .top .more .btn:hover{background-position:0 -108px}
+.comic_info .left .info .top .more .pop_box{position:absolute; border:2px solid #62ade2; width:260px; height:179px; overflow:hidden; left:0; top:32px; *top: 29px;  font-size:12px; color:#666; padding:3px 3px 0; display:none; background:#fff}
+.comic_info .left .info .top .more .pop_box p{height:29px; line-height:29px; border-bottom:1px dashed #bcbcbc; padding:0 10px}
+.comic_info .left .info .top .more .pop_box span{float:left; width:120px; padding-right: 0;}
+.comic_info .left .info .top .more .pop_box em{color:#ff444f}
+.ui-dialog .textbox {padding: 20px;font-size: 14px;color: #666;width: 480px; margin: 0 auto;}
+.ui-dialog .textbox .ti2 {padding: 0.3em 0;text-indent: 2em;}
+.tc{text-align: center;}
+/*标签*/
+.comic_info .left .info .label{padding:10px 0 0 15px; border-bottom:1px dashed #666}
+.comic_info .left .info .label .tab_scroll{position:relative; height:28px}
+.comic_info .left .info .label .tab_scroll div{position:absolute; left:0; top:0; z-index:2}
+.comic_info .left .info .label .tab_scroll a{display:block; width:62px; height:22px; border:1px solid #e2e2e2; background:#eaeaea; text-align:center; -webkit-transition:all .1s ease-in;-moz-transition:all .1s ease-in;-o-transition:all .1s ease-in;-ms-transition:all .1s ease-in;transition:all .1s ease-in}
+.comic_info .left .info .label .tab_scroll .curr{background:none; border-color:transparent; _border:none; _width:64px; _height:24px; _line-height:24px; color:#fff; text-decoration:none}
+.comic_info .left .info .label .tab_scroll span{position:absolute; left:0; top:0; width:64px; height:28px; background:url(../images/cs_pic.png) no-repeat 0 -150px}
+.comic_info .left .info .label_con{padding-top:10px; height:62px; width:605px; }
+.comic_label a,.comic_label li span{background:url(../images/comicinfo/cs_label.png) no-repeat #f6d75a; height:14px; padding:0 5px 0 20px; line-height:14px; color:#fff; float:left; margin-right:4px; border:1px solid #f6d75a; border-radius:2px; margin-bottom: 10px;}
+.comic_label a:hover{text-decoration:none}
+.comic_label .label2{background-position:0 -20px; background-color:#ea1616; border-color:#ea1616}
+.comic_label .label3{background-position:0 -40px; background-color:#ffb06b; border-color:#ffb06b}
+.comic_label .label4{background-position:0 -60px; background-color:#78c9ff; border-color:#78c9ff}
+.comic_label .label5{background-position:0 -80px; background-color:#e5a4ff; border-color:#e5a4ff}
+.comic_label .label6{background-position:0 -100px; background-color:#99cc33; border-color:#99cc33}
+.comic_label .label7{background-position:0 -120px; background-color:#99ccff; border-color:#99ccff}
+.comic_label .label8{background-position:0 -140px; background-color:#999999; border-color:#999999}
+.comic_label .label9{background-position:0 -160px; background-color:#ff99cc; border-color:#ff99cc}
+.comic_label .label10{background-position:0 -180px; background-color:#ff9999; border-color:#ff9999}
+.comic_label .label11{background-position:0 -200px; background-color:#b1b1ff; border-color:#b1b1ff}
+.comic_label .label12{background-position:0 -220px; background-color:#666666; border-color:#666666}
+.comic_label .label13{background-position:0 -240px; background-color:#0099ff; border-color:#0099ff}
+.comic_label .label14{background-position:0 -260px; background-color:#ff8a8a; border-color:#ff8a8a}
+.comic_label .label15{background-position:0 -280px; background-color:#68e2cb; border-color:#68e2cb}
+.comic_label .label16{background-position:0 -300px; background-color:#ffc082; border-color:#ffc082}
+.comic_label .label17{background-position:0 -320px; background-color:#333366; border-color:#333366}
+.comic_label .label18{background-position:0 -340px; background-color:#999966; border-color:#999966}
+.comic_label .label19{background-position:0 -718px; background-color:#99cccc; border-color:#99cccc}
+.comic_label .label20{background-position:0 -733px; background-color:#666699; border-color:#666699}
+.comic_label .label21{background-position:0 -748px; background-color:#cc6633; border-color:#cc6633}
+.comic_label .label22{background-position:0 -763px; background-color:#003399; border-color:#003399}
+.comic_label .label23{background-position:0 -778px; background-color:#336699; border-color:#336699}
+.comic_label .label24{background-position:0 -793px; background-color:#999933; border-color:#999933}
+.comic_label .label25{background-position:0 -808px; background-color:#663366; border-color:#663366}
+.comic_label .label26{background-position:0 -823px; background-color:#996699; border-color:#996699}
+.comic_label .label27{background-position:0 -838px; background-color:#669933; border-color:#669933}
+.comic_label .label28{background-position:0 -853px; background-color:#339999; border-color:#339999}
+.comic_label .label29{background-position:0 -868px; background-color:#ff9900; border-color:#ff9900}
+.comic_label .label30{background-position:0 -883px; background-color:#ff6666; border-color:#ff6666}
+.comic_label .label31{background-position:0 -898px; background-color:#666633; border-color:#666633}
+.comic_label .label32{background-position:0 -913px; background-color:#cc0033; border-color:#cc0033}
+.comic_label .label33{background-position:0 -928px; background-color:#99cc33; border-color:#99cc33}
+.comic_label .label34{background-position:0 -943px; background-color:#66cccc; border-color:#66cccc}
+.comic_label .label35{background-position:0 -958px; background-color:#66ccff; border-color:#66ccff}
+.comic_label .label36{background-position:0 -973px; background-color:#66cccc; border-color:#66cccc}
+.comic_label .label37{background-position:0 -988px; background-color:#336666; border-color:#336666}
+.comic_label .label38{background-position:0 -1003px; background-color:#abcdef; border-color:#abcdef}
+.comic_label .label39{background-position:0 -1018px; background-color:#99cc99; border-color:#99cc99}
+.comic_label .label40{background-position:0 -1033px; background-color:#3399cc; border-color:#3399cc}
+.comic_label .label41{background-position:0 -1048px; background-color:#cccc99; border-color:#cccc99}
+.comic_label .label42{background-position:0 -1063px; background-color:#990033; border-color:#990033}
+.comic_label .label43{background-position:0 -1078px; background-color:#ff9999; border-color:#ff9999}
+/*.comic_info .comic_label span,.comic_info .role_label span{float:left; background:url(../images/comicinfo/cs_pic.png) no-repeat -50px 3px; padding-left:10px; color:#575757; margin:2px 0 0 15px; cursor:pointer; height:16px; line-height:16px}*/
+.addLabelBtn{background:url(../images/cs_pic.png) no-repeat -50px 3px; padding-left:10px; color:#575757; margin:2px 0 0 15px; cursor:pointer; height:16px; line-height:16px; font-family: "microsoft yahei"; right: 10px; bottom: 10px; width: 55px; display: block; position: absolute;}
+.comic_info .role_label a{float:left; background:#fff1c8; border:1px solid #f6b235; padding:1px 4px; margin-right:8px; margin-bottom: 6px; position: relative;white-space:nowrap;}
+.comic_info .role_label a.cur{z-index: 20;}
+.comic_info .role_label a span{display: none; padding:5px 10px; position: absolute; left:-1px; top: 25px; border: 1px solid #d5c6bb; background: #fffded; }
+.comic_info .role_label a em{color:#999}
+.comic_info .role_label a:hover{text-decoration:none}
+/*作品描述*/
+.comic_info .left .info .words{ color:#999; height:80px; overflow:hidden; position: relative;word-break: break-all;word-wrap: break-word; padding:5px;}
+.comic_info .left .info .words .btn{display: inline-block;width: 40px;height: 18px;vertical-align: middle;background-position: 0 -90px; position: absolute; right: 10px; bottom: 22px;}
+.comic_info .left .info .words .btn:hover{background-position:0 -108px}
+.comic_info .left .info .up{background: url(../images/cs_pic.png) no-repeat -50px -50px;width: 15px;height: 14px;display: inline-block;vertical-align: middle;margin-left: 5px;cursor: pointer;}
+.comic_info .left .info .open_words .up {background-position: -50px -115px;}
+/*作品信息左侧底部按钮*/
+.comic_info .left .info .btn_wrap{position:relative;}
+.comic_info .left .info .btn_wrap a{float:left; width:163px; height:49px; border-bottom:4px solid #d0252f;-webkit-border-radius:3px;-moz-border-radius:3px;-ie-border-radius: 3px;border-radius:3px; background:#ff444f; color:#fff; text-align:center; 0 12px 8px 8px;}
+.comic_info .left .info .btn_wrap strong{display:block; font:20px/32px "Microsoft Yahei"; text-align:center}
+.comic_info .left .info .btn_wrap span{display:block; font:14px "Arial"}
+.comic_info .left .info .btn_wrap .btn_continue span{font:12px "宋体"}
+.comic_info .left .info .btn_wrap a:hover{text-decoration:none; opacity:0.85; filter:alpha(opacity=90)}
+.comic_info .left .info .btn_wrap a:active {margin-top:12px; margin-bottom:4px; border-width:0;opacity:1; filter:alpha(opacity=100)}
+.comic_info .left .info .btn_wrap .btn_stored{background:#41d0d6; border-color:#2eb0a2; position:relative;}
+/* ani-tag 收藏抛物线 */
+.ani-tag{ width:auto; height:auto; display:none; position:absolute; z-index:999; overflow:hidden;}
+.ani-tag img{ width:100%; opacity:0.7; filter:alpha(opacity=70)}
+.comic_info .left .info .btn_wrap .btn_ticket{background:#c150e6; border-color:#ac2a90}
+.comic_info .left .info .btn_wrap .btn_store{background:#2fb6bc; border-color:#308e84}
+.comic_info .left .info .btn_wrap .btn_start em{background:url(../images/cs_pic.png) no-repeat 0 -180px; float:left; width:35px; height:35px; margin:7px 9px 0 13px}
+.comic_info .left .info .btn_wrap .btn_start strong{font-size:22px; float:left; line-height:48px}
+.read_note_box{position:absolute; left:16px; top: -50px; *top:-60px; width:140px; height:50px; background:#fff; border:1px solid #767676;background: -webkit-linear-gradient(#fff, #e8e8f2);background: -moz-linear-gradient(#fff, #e8e8f2);background: -ms-linear-gradient(#fff, #e8e8f2);background: -o-linear-gradient(#fff, #e8e8f2);background: linear-gradient(#fff, #e8e8f2); padding-left: 20px; padding-top:5px; display:none; color:#666;}
+
+/*--comic_info左结束--*/
+/*--comic_info右--*/
+.comic_info .right{width:272px; float:right; padding-top:15px}
+.comic_info .right .tx{float:left; margin-left:9px;position:relative}
+.comic_info .right .tx img{display:block; width:90px; height:90px; padding:1px; border:1px solid #d4d4d4; background:#fff; position:relative}
+.comic_info .right .symbol{position:absolute; width:32px; height:32px; background:#ff5959; left:-8px; top:-11px}
+.comic_info .right .info{width:162px; height:112px; color:#666; line-height:24px; position:relative}
+.comic_info .right .info img{vertical-align: top;}
+.comic_info .right .info .author_label{background:url(../images/cs_pic.png) no-repeat; width:34px; height:33px; position:absolute; left:110px; top:-15px}
+.comic_info .right .info .author_hz{background-position:0 -435px}/*合作*/
+.comic_info .right .info .author_sign{background-position:0 -470px}/*签约*/
+.comic_info .right .name{font:14px "Microsoft Yahei"; color:#333}
+.comic_info .right .name:hover{color: #6dad14;}
+.comic_info .right .info strong{color:#ff8e00; padding-left:20px; background:url(../images/cs_pic.png) no-repeat -50px -16px; font-weight:normal;  display:inline-block; float:left}
+.comic_info .right .info .gz,.side .character .gz{background:#f6b235; color:#fff; width:40px; height:18px; text-align:center; line-height:18px; float:right; margin:3px 7px 0 0; border-radius:2px}
+.comic_info .right .info .gzed,.side .character .gzed{background: #a6a6a6;}
+.comic_info .right .info .gz i,.side .character .gz i{font-family:"Tahoma"; font-weight:bold}
+.comic_info .right .info .gz:hover,.side .character .gz:hover{text-decoration:none; opacity:0.8; filter:alpha(opacity=80)}
+.comic_info .right .author_words{position:relative; z-index:3; color:#666; width:272px; height:118px;  margin:15px 0 0 0; *margin: 0; clear:both; line-height:20px; }
+.comic_info .right .author_words .aw_content{ position:absolute; display:block; border:1px sosolid #ccc; height:80px; width:198px; overflow:hidden;  background:url(../images/comicinfo/bg_author_words.png) no-repeat 1px bottom;  padding:0 15px 40px 58px; }
+.v4_w1000 .comic_info .right .author_words .aw_content{ width:155px;}
+.comic_info .right .author_words .aw_content p{ width:100%; height:60px;}
+.comic_info .right .open_words{height:244px;  padding-bottom:8px;}
+.comic_info .right .author_words b{background:url(../images/cs_pic.png) no-repeat -43px -70px; position:absolute; width:22px; height:18px; overflow:hidden; top:-5px; left:30px; z-index:2;}
+.comic_info .right .author_words b.bot{ position:absolute; display:block; left:245px; top:auto; bottom:25px; background-position:-43px -90px}
+.comic_info .right .author_words em{background:url(../images/cs_pic.png) no-repeat -50px -50px; width:15px; height:14px; display:inline-block; vertical-align:middle; margin-left:5px; cursor:pointer}
+.comic_info .right .author_words em.up{background-position:-50px -115px}
+/*轮播广告*/
+.comic_info .auto_ad{position:relative; height:166px}
+.comic_info .auto_ad ul{width:270px; height:164px; overflow:hidden; position:absolute; left:1px; top:2px}
+.comic_info .auto_ad li{opacity:0; filter:alpha(opacity=0); position:absolute; left:0; top:0}
+.comic_info .auto_ad li.curr_con{opacity:1; filter:alpha(opacity=100); z-index:2}
+.comic_info .auto_ad img{display:block; width:270px; height:164px}
+.comic_info .auto_ad .auto_tab{position:absolute; left:228px; bottom: 10px; z-index:2}
+.comic_info .auto_ad .auto_tab a{float:left; width:8px; height:8px; background:url(../images/cs_pic.png) no-repeat 0 -220px; overflow:hidden; margin-right:5px}
+.comic_info .auto_ad .auto_tab a.curr{background-position:-10px -220px}
+.comic_info .auto_ad .prev,.comic_info .auto_ad .next{position:absolute; top:76px; left:1px; width:30px; height:30px; z-index:2}
+.comic_info .auto_ad .next{left:241px}
+.comic_info .auto_ad .prev span,.comic_info .auto_ad .next span{display:block; width:30px; height:30px; background:#000; opacity:0.3; filter:alpha(opacity=30); cursor:pointer}
+.comic_info .auto_ad .prev:hover span,.comic_info .auto_ad .next:hover span{opacity:0.7; filter:Alpha(opacity=70)}
+.comic_info .auto_ad .prev i,.comic_info .auto_ad .next i{position:absolute; width:8px; height:13px; background:url(../images/cs_pic.png) no-repeat 0 -235px; top:8px; left:12px; cursor:pointer}
+.comic_info .auto_ad .next i{background-position:-15px -235px}
+/*作品信息右侧底部按钮*/
+.comic_info .coverBox .btn_wrap{margin-top: 15px; margin-left: 48px;} 
+.comic_info .coverBox .btn_wrap a{padding-left:25px; margin:0 20px 0 0;}
+.comic_info .btn_wrap a{background:url(../images/cs_pic.png) no-repeat -44px -180px; float:left; height:24px; line-height:24px; margin:10px 26px 0 16px; *margin:0px 26px 0 16px;}
+.comic_info .btn_wrap .btn_reward{background-position:-44px -205px}
+.comic_info .btn_wrap .btn_reward.btn_dub_ds{background-position: 0 -554px;}
+.comic_info .btn_wrap .btn_share{background-position:-44px -230px}
+/*左边栏*/
+.side{width:250px; float:left; margin:25px 0 15px; *margin-bottom:0}
+.side_top{width:248px; border:1px solid #bfbfbf; background:#fafafa}
+/*礼物*/
+.side h2,.side .gift ul,.side .dynamic p,.side .send_gift p{background:url(../images/comicinfo/side_pic.jpg) no-repeat}
+.side .gift h2{width:175px; height:32px; margin:-17px auto 8px; padding:0; position:relative; z-index:5}
+.side .gift ul{height:78px; background-position:0 -35px}
+.side .gift li,.side .gift a{float:left; width:62px; height:78px; position:relative}
+.side .gift a:hover{text-decoration:none}
+.side .gift li .num{position:absolute; left:0; bottom:0; width:62px; height:16px; font:12px/16px "Arial"; color:#fff; text-align:center}
+.side .gift .pop_box{position:absolute; width:365px; height:168px; left:0px; top:78px; z-index:5; display:none}
+.side .gift .pop_box .bg{position:absolute; left:0; top:0; background:#000; opacity:0.9; filter:alpha(opacity=90); width:365px; height:168px}
+.side .gift .pop_box b{position:absolute; width:10px; height:13px; overflow:hidden; background:url(../images/cs_pic.png) no-repeat -55px -135px; left:-10px; top:28px; opacity:0.9; filter:alpha(opacity=90)}
+.side .gift .pop_box .con{position:absolute; left:0; top:0; font-size:14px; line-height:24px; color:#fff}
+.side .gift .pop_box .con .fl{width:140px; text-align:center}
+.side .gift .pop_box .con .fl span{background:url(../images/comicinfo/bg_pop_gift.png) no-repeat; width:95px; height:90px; display:block; margin:10px auto 5px}
+.side .gift .pop_box .con .fl strong{font:20px/30px "Arial"; color:#ff444f}
+.side .gift .pop_box .con .fr{width:200px; margin:20px 25px 0 0}
+.side .gift .pop_box .con .fr p{height:100px; overflow:hidden; width:200px}
+.side .gift .pop_box .con .fr a{display:block; width:110px; height:28px; text-align:center; line-height:28px; background:#f6b235; color:#fff; border-radius:2px}
+.side .gift .pop_box .con .fr a:hover,.side .dynamic p a.fr:hover{text-decoration:none;opacity:0.9; filter:alpha(opacity=90)}
+.side .gift .coffee .con .fl span{background-position:0 -90px}
+.side .gift .coffee .con .fr a{background:#6dad14}
+.side .gift .jewel .con .fl span{background-position:0 -180px}
+.side .gift .jewel .con .fr a{background:#70c2f8}
+.side .gift .house .con .fl span{background-position:0 -270px}
+.side .gift .house .con .fr a{background:#70cef8d6a2f8}
+.side .gift .pop_box .close{position:absolute; width:30px; height:30px; left:365px; top:0; z-index:2}
+.side .gift .pop_box .close span{display:block; width:30px; height:30px; background:#000; opacity:0.7; filter:alpha(opacity=70); cursor:pointer}
+.side .gift .pop_box .close i{background:url(../images/cs_pic.png) no-repeat 0 -70px; width:20px; height:20px; overflow:hidden; position:absolute; left:5px; top:5px; cursor:pointer}
+.side .gift .pop_box .close:hover i{background-position:-20px -70px}
+/*心意礼物*/
+.love_gift h3{height: 50px; background: #f1f1f1; line-height: 50px; font-size: 12px; color: #333; font-weight: bold; padding: 0 10px; position: relative;}
+.love_gift h3 a{position: absolute; right: 10px; top: 0px; color: #0099dd; font-weight: normal;}
+.aBtnBoxGreen{height: 28px;line-height: 28px;text-align: center;color: #fff;background: #6dad14;border-radius: 2px; padding: 0 15px; display: inline-block; font-size: 14px;}
+.aBtnBoxGreen:hover{opacity:0.9; filter:alpha(opacity=90); text-decoration:none}
+.gift_value{padding-top: 12px;}
+.gift_value .fr{width: 154px; line-height: 22px;}
+.gift_value .fl{width: 78px; padding-left: 10px;}
+.gift_value .fr strong{color: #ea9105; font-size: 16px;}
+.gift_value .fr a{margin-top: 5px;}
+.love_gift .why{padding: 10px 15px;}
+.love_gift .why .fl{width: 60px;}
+.love_gift .why .fr{width: 156px;}
+.gift_value_box{height: 222px; overflow: hidden; position: relative;}
+.send_gift_box{position: absolute; top: 0; left: 4px;}
+.send_gift .gift_value{background: url(../../common/images/bg_line.png) repeat-x left bottom; padding-bottom: 5px;}
+.send_gift .gift_value .aSend{color: #0099dd; text-align: right; padding-right: 10px; *width: 120px; }
+.side .send_gift p {background-position: 0 -170px;height: 34px;line-height: 34px;padding: 0 5px;color: #38961f; padding-right: 10px;}
+.side .send_gift p a.fl {color: #bb8522;}
+.side .send_gift p a.fr {width: 47px;height: 22px;line-height: 22px;text-align: center;color: #fff;background: #f6b235;border-radius: 2px;margin: 6px 0 0 5px;}
+.side .send_gift p em{float: right; color: #38961f;}
+
+/*本书最新动态*/
+.side h2{text-indent:-999em; height:51px}
+.side .ts_no{height: 90px;background:url(../../common/images/bg_line.png) repeat-x left bottom; padding:30px 0 0 20px; color: #333;}
+.side .ts_no img{vertical-align: middle; margin-right: 5px;}
+.side .dynamic h2{background-position:0 -115px; height:51px; border-top:4px solid #ffae00; margin-top:1px}
+.pos_rel_parent{position: relative; height: 112px; padding-left: 5px; overflow: hidden; margin-top: 10px;}
+.side .dynamic ul{padding-top:10px; width:238px; margin:0 auto; }
+.pos_abs_top{position: absolute; top: 0; padding-top: 0 !important;}
+.side .dynamic li{background:url(../../common/images/bg_line.png) repeat-x left bottom; height:28px; line-height:28px; padding:0 5px; color:#999}
+.side .dynamic li a{display:inline-block; width:88px; color:#333}
+.side .dynamic li a:hover{color: #6dad14;}
+.side .dynamic li span{color:#ff444f; margin-left:10px; font-family:"Arial"}
+.side .dynamic li em{display:inline-block; width:18px; height:18px; background:url(../images/cs_pic.png) no-repeat 0 -260px; vertical-align:middle; margin-left:12px}
+.side .dynamic p{background-position:0 -170px; height:34px; line-height:34px; padding:0 5px; color:#38961f}
+.side .dynamic p a.fl{color:#bb8522}
+.side .dynamic p a.fr{width:47px; height:22px; line-height:22px; text-align:center; color:#fff; background:#f6b235; border-radius:2px; margin:6px 0 0 5px}
+.side .ad_box{display:block; margin:10px auto}
+.side .ad_box img{display:block}
+/*后援团排行、月票支持榜*/
+.side .rank .tab{height:37px; border-bottom:2px solid #46c1ac; border-top:1px solid #bdbdbd; position:relative} 
+.side .rank .tab div{position:absolute; left:0; top:0; z-index:2}
+.side .rank .tab a{font:14px/37px "Microsoft Yahei"; text-align:center; display:block; width:128px; height:37px}
+.side .rank .tab .curr{text-decoration:none; color:#fff; font-size:16px}
+.side .rank .tab span{position:absolute; left:0; top:-1px; background:url(../images/comicinfo/side_pic.jpg) no-repeat 0 -210px; width:124px; height:40px}
+.side .rank_con ul{width:238px; margin:0 auto}
+.side .rank li{height:35px; padding:0 3px; line-height:34px; background:url(../../common/images/bg_line.png) repeat-x left bottom; clear:both; position: relative;}
+.side .rank .num{float:left; font:13px/34px "Arial"; width:18px; color:#666; font-style:italic}
+.side .rank .tx{width:22px; height:22px; border:1px solid #cbcbcb; float:left; margin:5px 10px 0 0}
+.side .rank .tx img{display:block; width:20px; height:20px}
+.side .rank .name{color:#333; display:inline-block; width: 90px; font-size: 13px; font-family: "microsoft yahei",simhei,simsun;}
+.side .rank .name_1{width: 90px !important;}
+.side .rank .name:hover{color: #6dad14;}
+.side .rank li i{float:right; margin-right:3px;font-family: "microsoft yahei";}
+.side .rank .q{height:42px; padding:9px 5px; line-height:20px}
+.side .rank .author_lev{float: right;}
+.side .rank .q .tx{position:relative; width:40px; height:40px; margin-top:0}
+.side .rank .q img{width:40px; height:40px}
+.side .rank .q .num{position:absolute; left:0; top:0; color:#fff; width:19px; height:20px; background:url(../images/cs_pic.png) no-repeat -20px -260px; overflow:hidden; line-height:16px; padding-left:1px}
+.side .rank .q .name{font-weight:bold}
+.side .rank .q .add{display:block; color:#999}
+.side .rank .q i{ font-size:14px; margin-top:0px}
+.side .rank .second .num{background-position:0 -280px}
+/*.side .rank .second i{color:#8686cc}*/
+.side .rank .third .num{background-position:-20px -280px}
+/*.side .rank .third i{color:#ee4036}*/
+.side #hy .bot{height:44px; color:#333; line-height:40px; padding-left:10px; _height:16px; _line-height:16px; _padding:12px 0 18px 3px; z-index: 11; width: 238px; clear: both;}
+.side .no_hy{height: 305px; text-align: center; color: #333; padding-top:120px;}
+.side .no_hy a{color: #f65100;}
+.side .rank .help,.side .character .help{display:inline-block; width:16px; height:16px; font:14px/16px "Arial"; text-align:center; color:#fff; background:#a7a7a7}
+.side .rank em{display: inline-block; width: 8px; height: 8px; overflow: hidden; background: url(../images/cs_pic.png) no-repeat;}
+.side .rank em.up{background-position: 0 -505px;}
+.side .rank em.down{background-position: -11px -505px;}
+.side .rank em.no_change{background-position: -24px -505px;}
+.side .rank .help:hover,.side .character .help:hover{background:#6dad14; text-decoration:none}
+.side #hy .bot .fr{margin:0 5px 0 0; *margin-top:-16px; *position: relative; *top: -24px; _top:0 }
+.side #m_ticket li{height:36px}
+.side #m_ticket li i{color:#666; font-size: 14px; font-family: "microsoft yahei"; margin-right: -2px;}
+.side #m_ticket li i strong{font:16px "Microsoft Yahei"; color:#ff444f; margin-right: 2px;}
+.side #m_ticket .second .num{color:#ff9000}
+.side #m_ticket .third .num{color:#4dc1f1}
+.side #m_ticket .first{height:42px; padding:12px 3px}
+.side #m_ticket .first i{display:block; float:none; background:url(../images/cs_pic.png) no-repeat -45px -257px; font-family:"Microsoft Yahei"; padding-left:24px; margin-top:0}
+.side #m_ticket .first i strong{font:22px "Arial"; color:#ff2792; margin-right:3px}
+.side #m_ticket .bot p{background:url(../images/comicinfo/side_pic.jpg) no-repeat 0 -170px; height:34px; line-height:34px; color:#666; padding:0 5px; margin-top:1px}
+.side #m_ticket .bot p a{background:#f6b235; width:47px; height:22px; text-align:center; line-height:22px; float:right; border-radius:2px; color:#fff; margin-top:6px; *margin-top:-28px}
+.side #m_ticket .bot p a:hover{text-decoration: none;opacity: 0.9;filter: alpha(opacity=90);}
+.side #m_ticket .bot div{height:44px; line-height:40px}
+.side #m_ticket .bot div a{margin:0 5px}
+.side #m_ticket .bot div a:hover{color:#6dad14 ;}
+/*本月领军人物*/
+.side .character h2{background-position:0 -250px; border-top:4px solid #6dad14}
+.side .character li{width:221px; margin:0 auto; border-bottom:1px solid #e5e5e5; height:105px; padding-left:14px; position: relative; z-index: 11;}
+.txtTs{width:240px; background: #fffded; border: 1px solid #d5c6bb; line-height: 20px; color: #4d4d4d; font-size: 12px; z-index: 10; position: absolute; left: 220px; top:40px; padding: 10px 8px; display: none;}
+.txtTs h5{font-size: 14px; font-weight: bold;}
+.side .character h4{font:14px/16px "Microsoft Yahei"; font-style:italic; color:#f44b55; padding:15px 0 8px}
+.side .character h4 em{display:inline-block; width:3px; height:16px; overflow:hidden; background:#f44b55; vertical-align:middle; margin-right:5px}
+.side .character .tx{float:left; position:relative; width:58px; height:58px}
+.side .character .tx span{background:url(../images/cs_pic.png) no-repeat 0 -300px; width:58px; height:58px;position:absolute; left:0; top:0; cursor:pointer}
+.side .character .tx img{display:block; width:50px; height:50px; margin:4px;border: 1px solid #ccc;border-radius: 3px;box-shadow: 0 0 3px #999;}
+.side .character .help{float:right; margin-top:2px; *margin-top:-25px;  }
+.side .character .name{font-size:14px; color:#333; line-height:26px}
+.side .character .name:hover{color:#6dad14;}
+.side .character .fl p{color:#666; width:158px; height:16px; line-height:16px; padding:2px 0 15px 5px; _padding:7px 0 5px 5px}
+.side .character .fans em{color:#ff444f; font-family:"Arial"}
+.side .character .gz{background:#46c1ac; margin-right:0; *margin-top:-25px; display:none}
+.side .character .role2 h4{color:#c77ff1}.side .character .role2 h4 em{background:#c77ff1}
+.side .character .role3 h4{color:#6dad14}.side .character .role3 h4 em{background:#6dad14}
+.side .character .role4 h4{color:#f78d10}.side .character .role4 h4 em{background:#f78d10}
+.side .character .role4{border:none}
+/*读者强推总榜*/
+.side .reader_push{position: relative; height: 488px; *height: 510px;}
+.side .reader_push h2 {background-position: -1px -467px;border-top: 4px solid #1dadad;margin-top: 20px;}
+.conBox{display: none;}
+.side .reader_push ul{margin:0 14px;}
+.side .reader_push li{padding: 14px 0 ; background: url(../../common/images/bg_line.png) repeat-x left bottom; height: 110px;}
+.side .reader_push li .img_box{width: 83px; height: 108px; float: left; border: 1px solid #e8e8e8; border-radius: 4px; box-shadow: 0 0 4px #f1f1f1; text-align: center; padding-top: 1px;}
+.side .reader_push li .img_box img{width: 79px; height: 105px; border: 1px solid #bfbfbf;}
+.side .reader_push li .fr{width: 128px;}
+.side .reader_push li h3 a{font-size: 14px; color: #ff444f; font-weight: bold;}
+.side .reader_push li p{font-size: 13px; color: #666;}
+.side .reader_push .touxiang_box{height: 30px; margin-top: 16px;}
+.side .reader_push .touxiang_box .img_tx img{width: 20px; height: 20px; border: 1px solid #cbcbcb; vertical-align: middle;}
+.side .reader_push .touxiang_box .img_name{font-size: 13px; color: #f99200; position: relative; top: 3px;}
+.side .reader_push .touxiang_box .zan{display: inline-block; width: 16px; height: 16px; overflow: hidden; background: url(../images/comic_update/update_ico.png) no-repeat -47px -3px; vertical-align: middle; margin-left: 5px;}
+.side .reader_push li.last{height: 36px; line-height: 36px; padding: 0; background: none; font-size: 13px;}
+.side .reader_push li.last .fl{color: #818488;}
+.side .reader_push li.last .fr_t{color: #333; float: right;}
+
+
+
+
+/*全站强推*/
+.side .strong_push h2{background-position:0 -305px; border-top:4px solid #ee4036; margin-top:20px}
+.side .strong_push li{background:url(../../common/images/bg_line.png) repeat-x left bottom; width:238px; margin:0 auto; padding-bottom:1px}
+.side .strong_push li p{height:28px; line-height:28px; padding:0 5px;}
+.side .strong_push li p a:hover{color: #6dad14;}
+.side .strong_push li p span{float:right; color:#ff444f; *margin-top:-28px}
+.side .strong_push .info{height:107px; padding:10px 0; color:#666; display:none}
+.side .strong_push .info .cover{float:left; width:79px; height:105px; border:1px solid #c0c0c0}
+.side .strong_push .info img{display:block; width:79px; height:105px}
+.side .strong_push .info .fr{width:145px; line-height:20px}
+.side .strong_push .info .name{font-weight:bold; color:#ff444f; font-size:14px}
+.side .strong_push .info span{color:#333}
+.pd_tb_7{padding-top:5px; padding-bottom:5px}
+/*更多推荐*/
+.side .more_push h2{background-position:0 -415px; border-top:4px solid #ffb679; margin-top:20px}
+.side .more_push .list{padding: 10px 0 10px 12px;}
+.side .more_push .list a{margin-right: 30px; font-size: 13px; color: #333; line-height: 24px;}
+.side .more_push .list a:hover{color: #6dad14;}
+/*今日访客*/
+.visitors h2{background-position:0 -360px; border-top:4px solid #369eee; margin-top:25px}
+.visitors a{float:left; position:relative; width:58px; margin:12px 2px; _width:58px; overflow:hidden; display:inline; text-align:center; color:#999; line-height:16px}
+.visitors i{position:absolute; left:0; top:0; background:url(../images/cs_pic.png) no-repeat 0 -300px; height:58px; width:58px; cursor:pointer}
+.visitors a span{color:#333; display:block; height: 16px; overflow: hidden;}
+.visitors a span:hover{color: #6dad14;}
+.visitors img{display:block; width:50px; height:50px; margin:4px;border: 1px solid #ccc;border-radius: 3px;box-shadow: 0 0 3px #999;}
+.visitors p{height:30px; background:url(../../common/images/bg_line.png) repeat-x left top; line-height:30px; color:#369eee; text-align:center; clear:both; margin:0 5px}
+/*广告*/
+.side_bot{padding-top:10px}
+.side_bot a img{display:block; border:1px solid #ccc}
+.side_bot a{display:block; margin-top:10px; width: 250px; height: 250px;}
+/*右侧*/
+.main{float:right; width:930px; margin-bottom:15px; *margin-bottom:0}
+.noInformation{height: 180px; text-align: center; line-height: 180px; font-size: 14px; font-family: "microsoft yahei"; color: #999;}
+.noInformation img{vertical-align: middle; margin-right: 10px;}
+/*章节列表*/
+.chapterlist h3{height:30px; padding-bottom:5px;}
+.chapterlist h3 strong{float:left; font:500 22px/30px "Microsoft Yahei"; color:#333}
+.chapterlist h3 a{float:right; height:22px; padding:0 12px; background:#d7ebfb; margin-right:10px; border-radius:2px;-webkit-transition:none;-moz-transition:none;-o-transition:none;-ms-transition:none;transition:none}
+.chapterlist h3 a.tm_btn{background: #cee7ac;}
+.chapterlist h3 a.a_link{float: left; background: none; line-height: 30px; font-size: 16px; color: #ff6600; font-family: "microsoft yahei";}
+.chapterlist h3 a.a_link em{ display: inline-block; width: 20px; height: 17px; background: url(../images/comicinfo/cs_btn.png) no-repeat 0 -158px; margin: 0 2px; position: relative; top: 2px;}
+.chapterlist h3 a.a_link:hover{background: none;color: #ff6600; text-decoration: underline;}
+.chapterlist h3 .turn{padding-right:18px; background:url(../images/cs_pic.png) no-repeat #d7ebfb 65px -358px}
+.chapterlist h3 a:hover{color:#fff; background-color:#379be9; text-decoration:none}
+.chapterlist h3 a.tm_btn:hover{background: #6dad14;}
+.chapterlist h3 .turn:hover{background-position:65px -394px}
+.chapterlist h3 .down{background-position:65px -376px}
+.chapterlist h3 .down:hover{background-position:65px -412px}
+/*章节列表框*/
+.chapterlist_box{border:5px solid #e3e3e3; position:relative; padding:2px 10px; width:730px}
+.chapterlist_box b{position:absolute; width:11px; height:11px; overflow:hidden; border:5px solid #000; border-width:5px 0 0 5px}
+.chapterlist_box b.tl{left:-5px; top:-5px}
+.chapterlist_box b.tr{border-width:5px 5px 0 0; right:-5px; top:-5px}
+.chapterlist_box b.bl{border-width:0 0 5px 5px; bottom:-5px; left:-5px}
+.chapterlist_box b.br{border-width:0 5px 5px 0; right:-5px; bottom:-5px}
+.chapterlist_box ul{background:url(../images/chapter_line.png) repeat-x left bottom}
+.chapterlist_box li{height:47px; background:url(../images/chapter_line.png) repeat-x left bottom; padding-left:15px; color:#999; font:12px/46px "Tahoma"; float:left; width:210px; position:relative}
+.chapterlist_box li a{padding-left:15px; background:url(../images/cs_pic.png) no-repeat -55px -352px; float:left; color:#09d; font:14px/46px "宋体"; margin-right:5px; position:relative}
+.chapterlist_box li a.cur{color:#7744BB;}
+.chapterlist_box li a i{width: 23px; height: 11px; background: url(../../common/images/cs_ico.png) no-repeat 0px -440px; position: absolute; top:4px; right: -18px;}
+.chapterlist_box li .redline{background:url(../images/comicinfo/red_line.png) no-repeat; width:130px; height:8px; position:absolute; left:20px; bottom:6px; _bottom:0px}
+.chapterlist_box li .ico_new{position:absolute; right:-24px; top:6px}
+.chapterlist_box li a.pay_chapter{background-position:-55px -384px}
+.chapterlist_box li a.vip_chapter{background-position:-55px -417px}
+.chapterlist_box li a.colorful{ background: none;}
+.chapterlist_box li a.colorful em{ position: absolute; width: 16px; height: 16px; left: -4px; top: 16px; background: url(../images/cs_pic.png) no-repeat -42px -607px;}
+
+.chapterlist_box li a .vip_xianmian{background:url(../images/cs_pic.png) no-repeat 0px -609px; position: absolute; left:-15px; top: 16px; width: 26px; height: 15px; overflow: hidden;}
+.chapterlist_box .bot{height:27px; padding:25px 0 20px 15px}
+.chapterlist_box .bot .fl a{float:left; height:27px; background-color:#6dad14; color:#fff; line-height:27px; padding:0 15px; border-radius:1px; margin-right:12px}
+.btn{background-image:url(../images/comicinfo/cs_btn.png)}
+.chapterlist_box .bot .fl .add_book{width:110px; padding:0}
+.chapterlist_box .bot .fl .add_book_end{background-position: 0 -128px;}
+.chapterlist_box .bot .fl span{float:left; color:#666; line-height:27px}
+.chapterlist_box .bot a:hover,.vote .btn_vote:hover,.vote .new_vote .btn_wrap .btn_result:hover{opacity:0.9; filter:alpha(opacity=90); text-decoration:none}
+.chapterlist_box .btn_ds{float:right; width:110px; height:27px; background-position:0 -30px}
+.chapterlist_box .ds_dub_txt{float: right; width: 108px; height: 32px; background-position: 0 -293px; margin-right: 15px; position: relative; top: -2px; line-height: 33px; text-align: center; color: #ff3541; font-weight: bold; padding-right: 10px; font-size: 13px;}
+/*推荐*/
+.recomend{margin-top:24px; height:265px; overflow:hidden}
+.main .tab_wrap{border:1px solid #cecece; border-bottom:2px solid #534942; height:35px; background:#eee; position:relative; padding:0 15px}
+.main .tab_scroll div,.main .vote_tab div{position:absolute; width:125px; height:35px; text-align:center; line-height:35px; color:#333; border-right:1px solid #cecece; top:0; left:0; color:#333; *z-index:2}
+.main .tab_scroll div a,.main .vote_tab a{color:#333; font:14px/35px "Microsoft Yahei"; position:relative; z-index:2; height:35px; display:block}
+.main .tab_scroll .curr,.main .vote_tab .curr{color:#fff; text-decoration:none}
+.main .tab_scroll span,.main .vote_tab span{position:absolute; left:0; top:-1px; width:124px; height:36px; background:#574c45; border:1px solid #3c322b; cursor:pointer}
+.main .tab_scroll .ico{background-position:0 -455px; width:10px; height:10px; vertical-align:text-top; margin-left:5px; _display:block; _margin:-30px 0 0 80px}
+.recomend .other li,.recomend .author_comic li{float:left; margin:28px 13px; text-align:center; color:#999; display:inline}
+.recomend .other .cover,.recomend .author_comic .cover{background:url(../../common/images/bg_cover.png) no-repeat; width:104px; height:137px; padding:2px 12px; display:block}
+.recomend .other img,.recomend .author_comic img{display:block; width:104px; height:137px}
+.recomend .other .name,.recomend .author_comic .name{color:#333; font-size:14px; display:block; margin-top:5px}
+.recomend .other .name:hover,.recomend .author_comic .name:hover{color: #6dad14;}
+.recomend .rec_anime{padding-top:24px}
+.recomend .rec_anime .first{background:url(../images/comicinfo/bg_rec_anime.png) no-repeat; width:212px; height:176px; float:left; color:#666; line-height:24px}
+.recomend .rec_anime .first h4{font:16px/34px "Microsoft Yahei"; color:#fff; padding-left:16px}
+.recomend .rec_anime .first .con{padding:10px 0 0 28px}
+.recomend .rec_anime .first a{font:15px "Microsoft Yahei"; color:#f75000; line-height:30px}
+.recomend .rec_anime .anime{width: 707px; height: 200px;}
+.recomend .rec_anime .animelist{width: 9999px;}
+.recomend .rec_anime li{float:left; display:inline; margin-left:21px}
+.recomend .rec_anime li img{display:block; width:210px; height:150px}
+.recomend .rec_anime li .cover{position:relative; width:210px; height:150px; display:block; border:1px solid #d5d5d5}
+.recomend .rec_anime li i{position:absolute; background-position:0 -340px; width:26px; height:26px; left:10px; bottom:6px}
+.recomend .rec_anime li .cover:hover i{background-position:0 -370px; width:56px; height:56px; left:78px; top:48px}
+.recomend .rec_anime li .cover:hover{border:1px solid #6dad14}
+.recomend .rec_anime li .name{display:block; text-align:center; font-size:14px; line-height:36px; position:relative}
+.recomend .rec_anime li .name:hover{color: #6dad14;}
+.recomend .rec_anime li .name em{margin-left:5px; vertical-align:text-top}
+.recomend .rec_pic,.recomend .author_comic,.recomend .outer_pic,.recomend .tm_pic,.recomend .anime{position:relative; height:185px; width:925px; overflow:hidden; margin-top:24px}
+.recomend .rec_anime .anime{margin-top: 0; margin-left: 10px;}
+.recomend .rec_pic .scroll_comic,.recomend .author_comic .scroll_comic,.recomend .anime .scroll_comic{position:relative; width:915px; height:185px; overflow:hidden}
+.recomend .anime .scroll_comic{width: 700px}
+.recomend .anime .pagelist{position: absolute; left:0; bottom: 0; text-align: center; width: 100%; height: 20px;}
+.recomend .anime .pagelist a{width: 10px; height: 10px; overflow: hidden; border-radius: 50%; background: #b6b6b6; display: inline-block; margin-right: 5px;}
+.recomend .anime .pagelist a.cur{background: #00d9f3;}
+.recomend .rec_pic .scroll_comic ul,.recomend .author_comic .scroll_comic ul,.recomend .anime .scroll_comic ul{position:absolute; left:0; top:0}
+.recomend .rec_pic .scroll_comic li{float:left; margin-left:15px; display:inline}
+.recomend .rec_pic .scroll_comic img{display:block; width:210px; height:150px}
+.recomend .rec_pic .scroll_comic .cover{display:block; width:210px; height:150px; border:1px solid #d5d5d5;-webkit-box-shadow:2px 2px #d5d5d5;box-shadow:2px 2px #d5d5d5}
+.recomend .rec_pic .scroll_comic .cover:hover{border-color:#6dad14}
+.recomend .rec_pic .scroll_comic p{padding:8px 0; color:#666}
+.recomend .rec_pic .scroll_comic p a{color:#333; margin:0 0px 0 8px}
+.recomend .rec_pic .scroll_comic p a:hover{background:#f5dc84; text-decoration:none}
+.recomend .prev,.recomend .next{position:absolute; width:40px; height:40px; right:0; top:60px; z-index:10; display:none}
+.recomend .prev{left:0}
+.recomend .prev span,.recomend .next span{display:block; width:40px; height:40px; background:#000; opacity:0.5; filter:Alpha(opacity=50); cursor:pointer}
+.recomend .prev i,.recomend .next i{position:absolute; width:15px; height:23px; left:12px; top:8px; background:url(../images/index/cs_ico.png) no-repeat 0 -180px; cursor:pointer}
+.recomend .prev i{background-position:0 -205px}
+.recomend .prev:hover span,.recomend .next:hover span{opacity:0.8; filter:Alpha(opacity=80)}
+/*本作者漫画*/
+.recomend .author_comic{margin:0; height:220px}
+.recomend .author_comic .ts_no{ color: #999; text-align: center; padding-top: 80px; font-family: "microsoft yahei"; font-size: 14px;}
+.recomend .author_comic .ts_no img{vertical-align: middle;margin-right: 5px; width: 48px; height: 60px; display: inline-block;}
+.recomend .author_comic .scroll_comic{height:220px; width:930px}
+.recomend .author_comic .prev,.recomend .author_comic .next{top:80px}
+/*投票*/
+.vote{margin-top:24px}
+.vote .vote_tab i{color:#ff444f; font:12px "Arial"; position:relative; z-index:2; cursor:pointer; padding-left:5px}
+.vote .vote_tab a:hover{text-decoration:none}
+.vote .btn_vote{float:right; width:73px; height:23px; text-align:center; color:#fff; background:#379be9; border-radius:2px; margin-top:6px; line-height:23px}
+.vote .vote_con{padding:15px; width:900px; overflow:hidden}
+.vote .new_vote dt a{font-size:14px; font-weight:bold; color:#379BE9; margin-right:6px; text-decoration:underline}
+.vote .new_vote dt{color:#999; line-height:40px}
+.vote .new_vote dd{display: inline-block; vertical-align: top; width:172px; overflow:hidden; line-height:22px; margin-bottom: 6px; color:#767676}
+.vote .new_vote dd label{cursor: pointer;}
+.vote .new_vote dd input{margin-right:5px; vertical-align:middle}
+.vote .new_vote .btn_wrap{padding:15px 0 20px; height:27px; line-height:27px; color:#666}
+.vote .new_vote .btn_wrap i{color:#ff444f}
+.vote .new_vote .btn_wrap .btn{background-position:0 -60px; width:80px; height:27px; float:left; margin-right:10px}
+.vote .new_vote .btn_wrap .btn_result{background:#f5e28a; border-radius:2px; color:#705b10; text-align:center; width:80px; height:27px; margin-right:10px; float:left; font-size:14px}
+/*全部投票列表*/
+dl.votelist{background:url(../../common/images/dottedline_x.png) 0 bottom repeat-x;padding:10px 0}
+dl.votelist dt{width:56px}
+dl.votelist dt img{padding:1px;border:1px solid #d4d4d4}
+dl.votelist dd{padding-left:15px;float:left;width:825px; overflow:hidden}
+dl.votelist .t{color:#999;height:26px}
+dl.votelist ul.vote_option li{width:auto;display:block}
+dl.votelist .vote_info{float:right;margin-top:-26px;_margin-top:-22px}
+dl.votelist .vote_info i{margin-right:15px;color:#333}
+dl.votelist .vote_info i em{color:#888}
+dl.votelist .vote_info .u,dl.votelist .vote_info a{color:#379BE9!important}
+dl.votelist .vote_info img{vertical-align:top;margin-left:3px}
+dl.votelist .t .votetop{float:right;position:relative;text-align:center;border:1px solid #ccc;color:#70982C;background:#f7f7f7 url(../images/cs_pic.png) -45px -280px no-repeat;padding-left:15px;width:45px;cursor:pointer;font:normal 12px/20px normal;margin:0;line-height:22px\9;height:20px}
+dl.votelist .t .votetop p{width:60px;position:absolute;top:20px;padding-top:2px;border:1px solid #ccc;border-top:0;left:-1px;display:none;background:#f7f7f7}
+dl.votelist .t .votetop p a{display:block;text-align:center;font:normal 12px/20px normal;margin:0;color:#70982C}
+dl.votelist .t .votetop p a:hover{background:#dff1b6;color:#577219;text-decoration:none}
+dl.votelist .t .hover{border-bottom:0}
+dl.votelist .t .hover p{display:block}
+dl.votelist .t .recall{background:#f7f7f7;padding:0;width:60px}
+dl.votelist .t a{color:#379BE9;font-size:14px;font-weight:bold;margin-right:6px}
+ul.vote_option li span{display:block;line-height:18px;overflow:auto;color:#767676;word-wrap:break-word}
+dl.votelist .checkbox,dl.votelist .radio{display:inline;float:left;margin-right:3px;margin-top:2px;margin-top:1px\9;*margin-top:-3px;_margin-top:-2px}
+ul.vote_option li{margin-right:12px;padding:3px 0;vertical-align:top;*display:inline;*zoom:1}
+/*周边*/
+.recomend .outer_pic{height: 201px;}
+#outer{width:925px; position: relative;}
+#outer ul{ position: absolute; left: 0; top: 0px;}
+#outer li{width: 210px; float: left; margin: 0 10px 0 11px;}
+#outer li img{width: 210px; height: 150px;}
+#outer li p{position: relative;}
+#outer li p span{color: #ff4550;}
+#outer li p .buyBtn{width: 60px; height: 22px; text-align: center; line-height: 22px; color: #fff; position: absolute; right: 0; top: 10px; display: block; background: #f85c00; border-radius: 2px;}
+/*条慢*/
+.recomend .tm_pic{height: 201px;}
+#tmbox{width: 925px; position: relative; }
+#tmbox ul{position: absolute; left: 0; top: 0px; width: 9999px;}
+#tmbox li{width: 210px; height: 186px; float: left;margin: 0 10px 0 11px; text-align: center; color: #999;}
+#tmbox li .cover{display: block;width: 210px;height: 129px;background:url(../images/index/bg_cover.png) no-repeat 0 -155px;padding: 5px 5px 1px 1px;}
+#tmbox li .cover:hover{background-position: -217px -156px;}
+#tmbox li .cover img{  width: 209px;height: 128px;}
+#tmbox li .name{color:#333; font-size:14px; display:block; margin-top:5px}
+#tmbox li .name:hover{color: #6dad14;}
+/*评论*/
+#comment .tab_wrap p.fr{line-height:35px; color:#666}
+#comment .tab_wrap p.fr i{color:#ff444f; margin:0 5px}
+#comment .tab_wrap p.fr a{color:#2daed8}
+
+/*添加作者角色弹出框*/
+.add_author{padding:20px 0 20px 50px}
+/*.add_author input{background:url(../images/comicinfo/alert_input.png) no-repeat;border:none;float:left}
+.add_author .input_name{width:345px;height:25px;line-height:25px;padding:6px}
+.add_author .btn_add{background-position:0 -37px;width:52px;height:36px;cursor:pointer;margin-left:5px}
+.add_author .btn_add:hover{background-position:-150px -37px}*/
+.add_author .input_name{border:1px solid #b9b9b9; width:352px; height:18px; padding:5px; line-height:18px; margin-right: 10px;}
+.add_author .btn_add{background:#76b127; border:1px solid #5c980d; width:48px; height:30px; line-height:30px; text-align:center; font-size:16px; color:#fff; cursor:pointer}
+.add_author .btn_add:hover{background:#6ba61c}
+.add_author  p{background:#fff;padding-top:0.6em}
+.add_author .list a{margin-right:20px;display:inline-block}
+
+/*添加漫画标签*/
+#add_comic_tag_dialog{padding:0 20px; *padding-bottom:20px}
+#add_comic_tag_dialog h6{padding:10px}
+#add_comic_tag_dialog .input_name{border:1px solid #b9b9b9; width:352px; height:18px; padding:5px; line-height:18px; margin-left:28px; margin-right: 10px;}
+#add_comic_tag_dialog .btn_add{background:#76b127; border:1px solid #5c980d; width:48px; height:30px; line-height:30px; text-align:center; font-size:16px; color:#fff; cursor:pointer}
+#add_comic_tag_dialog .btn_add:hover{background:#6ba61c}
+#add_comic_tag_dialog .comic_label{padding-left:28px;padding-bottom:10px;white-space:nowrap;zoom:1;}
+#add_comic_tag_dialog .comic_label i{float:left; width:15px; height:14px; border:1px solid #e4e4e4; text-align:center; color:#a5a5a5; font-size:14px; line-height:14px; display:none}
+#add_comic_tag_dialog .comic_label .noadd i{display:none}
+#add_comic_tag_dialog .line_dash{border-bottom:1px dashed #e3e3e3}
+#add_comic_tag_dialog ul.comic_label li{width:73px; float:left; margin:0 40px 18px 0; cursor:pointer}
+#add_comic_tag_dialog .comic_label .added span{background-position:0 -360px; background-color:#d3d3d3; border-color:#d3d3d3}
+#add_comic_tag_dialog .comic_label .added .label2{background-position:0 -380px}
+#add_comic_tag_dialog .comic_label .added .label3{background-position:0 -400px}
+#add_comic_tag_dialog .comic_label .added .label4{background-position:0 -420px}
+#add_comic_tag_dialog .comic_label .added .label5{background-position:0 -440px}
+#add_comic_tag_dialog .comic_label .added .label6{background-position:0 -460px}
+#add_comic_tag_dialog .comic_label .added .label7{background-position:0 -480px}
+#add_comic_tag_dialog .comic_label .added .label8{background-position:0 -500px}
+#add_comic_tag_dialog .comic_label .added .label9{background-position:0 -520px}
+#add_comic_tag_dialog .comic_label .added .label10{background-position:0 -540px}
+#add_comic_tag_dialog .comic_label .added .label11{background-position:0 -560px}
+#add_comic_tag_dialog .comic_label .added .label12{background-position:0 -580px}
+#add_comic_tag_dialog .comic_label .added .label13{background-position:0 -600px}
+#add_comic_tag_dialog .comic_label .added .label14{background-position:0 -620px}
+#add_comic_tag_dialog .comic_label .added .label15{background-position:0 -640px}
+#add_comic_tag_dialog .comic_label .added .label16{background-position:0 -660px}
+#add_comic_tag_dialog .comic_label .added .label17{background-position:0 -680px}
+#add_comic_tag_dialog .comic_label .added .label18{background-position:0 -700px}
+
+.nowork {color: #666666;line-height: 60px;margin: 60px auto;width: 220px;}
+.nowork {background: url(../../common/images/yg_cry.png) right 0 no-repeat;}
+
+/*举报弹框*/
+.ui-dialog .jubao td{text-align:left!important; padding-left:32px}
+.ui-dialog .jubao h5{font:500 14px/32px "宋体"; color:#333}
+.ui-dialog .jubao label{display:block; height:32px; line-height:32px; color:#666; font-size:14px; padding-left:15px}
+.ui-dialog .jubao label input{vertical-align:middle; margin-right:5px}
+.ui-dialog .jubao textarea{width:420px; height:117px; border:1px solid #bebebe; float:left; margin-top:10px; color:#999; padding:5px 10px; font-size:12px}
+.ui-dialog .jubao td b{color:#ff3f3f; margin-right:7px; float:left; margin-top:8px}
+.ui-dialog .jubao .tip{float:left; padding-left:20px; color:#ff3f3f; background:url(../../common/images/cs_ico_common.png) no-repeat 0 -476px; margin-left:15px; white-space:nowrap}
+.ui-dialog .jubao .num{float:right; color:#666; font-family:"Arial"; margin-right:30px}
+.ui-dialog .jubao .code{clear:both; padding-top:30px; line-height:28px; height:85px; position:relative}
+.ui-dialog .jubao .code .tip{position:absolute; left:52px; top:62px}
+.ui-dialog .jubao .code span{float:left; font-size:14px; color:#333; margin:0 8px 0 15px}
+.ui-dialog .jubao .code input{width:93px; height:16px; line-height:16px; padding:5px; border:1px solid #bebebe; background:#fff; float:left}
+.ui-dialog .jubao .code img{width:78px; height:26px; border:1px solid #c8c8c8; float:left; display:block; margin:0 10px}
+.ui-dialog .jubao .code i{color:#666; float:left}
+.ui-dialog .jubao .code .tip{line-height:22px}
+.ui-dialog .jubao .ui-dialog-buttonpane button.left{background-position:0 -143px}
+.ui-dialog .jubao .ui-dialog-buttonpane{padding-bottom:15px}
+/*举报按钮*/
+#workinfo .worktab a{background:url(../../common/images/cs_ico_common.png) no-repeat 0 -507px; padding-left:24px; color:#999; float:right; *margin-top:-28px}
+
+/*width1000*/
+.v4_w1000 .main{width:730px; _width:720px; _overflow: hidden;}
+.v4_w1000 .chapterlist_box{width:700px;}
+.v4_w1000 .chapterlist_box li{width: 160px; overflow: hidden;}
+.v4_w1000 .recomend .rec_anime li {margin-left: 18px;margin-right: 4px;}
+.v4_w1000 .recomend .other li,.v4_w1000 .recomend .author_comic li{margin: 28px 9px; _margin:28px 8px;}
+.v4_w1000 .recomend .rec_pic, .v4_w1000 .recomend .author_comic,.v4_w1000 .recomend .tm_pic,.v4_w1000 #tmbox{width: 725px;}
+.v4_w1000 .recomend .rec_pic .scroll_comic, .v4_w1000 .recomend .author_comic .scroll_comic{width: 730px;}
+.v4_w1000 .recomend .rec_pic .scroll_comic li{margin-left: 23px; margin-right: 4px;}
+.v4_w1000 .ad_wrap{width: 990px;}
+.v4_w1000 .ad_wrap .fl{width: 958px; overflow: hidden;}
+.v4_w1000 .recomend .rec_anime .first{display: none;}
+.v4_w1000 .ad_wrap img{/*margin-left: -105px;*/width:100%; border:none; padding:0; height: 64px;}
+.v4_w1000 .location{width: 990px;}
+.v4_w1000 .comic_info{background: url(../images/comicinfo/bg_comicinfo_1000.png) no-repeat; padding-left: 10px;}
+.v4_w1000 .comic_info .left{width: 730px;}
+.v4_w1000 .comic_info .right{width: 232px;}
+.v4_w1000  .comic_info .auto_ad img{width: 230px;}
+.v4_w1000 .comic_info .right .author_words{width: 233px; *width: 235px; height: 98px;}
+.v4_w1000 .comic_info .right .author_words p.bg{height: 66px; width: 160px;}
+.v4_w1000 .comic_info .auto_ad .next{left: 209px;}
+.v4_w1000 .comic_info .auto_ad .auto_tab{width: 39px; left: 192px;}
+.v4_w1000 .comic_info .right .info .author_label{left: 99px;}
+.v4_w1000 .comic_info .right .info{width: 132px;}
+.v4_w1000 .comic_info .right .tx img{width: 80px; height: 80px;}
+.v4_w1000 .comic_info .right .author_words b{left: 30px;top: 0;}
+.v4_w1000 .comic_info .right .author_words b.bot{left: 195px; top: auto; bottom: 25px;}
+.v4_w1000 .comic_info .right .author_words p{background-position: 2px bottom;*padding: 0 12px 40px 58px;}
+.v4_w1000 .comic_info .right .open_words{height: 224px; overflow: hidden;}
+.v4_w1000 .comic_info .auto_ad{left: 1px;}
+.v4_w1000 .comic_info .history_pop_box{width: 1000px;}
+.v4_w1000 .comic_info .history_pop_box .scroll_box li{margin-right: 26px;}
+.v4_w1000 .comic_info .history_pop_box .scroll_box{width: 980px;}
+.v4_w1000 .comic_info .history_pop_box .scroll_comic{width: 960px;}
+.v4_w1000 .comic_info .left .info .btn_wrap .btn_start em{display: none;}
+.v4_w1000 .comic_info .info{width: 482px; _float:left}
+.v4_w1000 .comic_info .left .info .label{_width: 450px; _overflow: hidden;}
+.v4_w1000 .comic_info .left .info .top{font-size: 12px;padding: 0 0 3px 6px;width: 480px; _width:470px}
+.v4_w1000 .comic_info .left .info .top .more{z-index: 10;}
+.v4_w1000 .comic_info .left .info .words,.v4_w1000 .comic_info .left .info .open_words{width: 466px;}
+.v4_w1000 .comic_info .left .info .btn_wrap a{width: 100px; height: 30px; position: relative;margin: 14px 0 0 35px;}
+.v4_w1000 .comic_info .left .info .btn_wrap strong{font-size: 16px;}
+.v4_w1000 .comic_info .left .info .btn_wrap .btn_start strong{float: none; line-height:30px;}
+.v4_w1000 .comic_info .left .info .btn_wrap a span{position: absolute; top: -16px; right: 0; color: #2fb6bc; height: 16px; overflow: hidden;}
+.v4_w1000 .comic_info .left .info .btn_wrap .btn_ticket span{color: #c150e6;}
+
+.v4_w1000 .comic_info .left .info .btn_wrap .line_blue{border-color: #33afd0;}
+.v4_w1000 .comic_info .left .info .label_con{width: 484px;}
+.v4_w1000 .vote .vote_con{width: 700px;}
+.v4_w1000 dl.votelist dd{width: 625px;}
+.comic_gg{width:930px;display: inline-block;height: 90px; overflow: hidden;}
+.v4_w1000 .comic_gg{width: 730px; }
+.v4_w1000 .comic_gg img{margin-left: -100px;}
+.v4_w1000 .comic_info .role_label a{line-height: 18px; margin-bottom: 8px;white-space:nowrap;}
+.v4_w1000 .comic_info .left .info .top .line1 span{padding-right: 16px;}
+
+.v4_w1000 .comic_info .coverBox .btn_wrap{margin-top: 8px;}
+.v4_w1000 .chapterlist_box li a{font-size: 12px;}
+.v4_w1000 #tmbox li{margin:0 14px 0 16px;}
+/*等级颜色*/
+.author_lev_txt,.author_lev_txt1,.author_lev_txt2{color: #9fc966;}
+.author_lev_txt3{color: #7bd9aa;}
+.author_lev_txt4{color: #58ba89;}
+.author_lev_txt5{color: #42b87d;}
+.author_lev_txt6{color: #73bdfc;}
+.author_lev_txt7{color: #3ca6ff;}
+.author_lev_txt8{color: #964eda;}
+.author_lev_txt9{color: #7401c4;}
+.author_lev_txt10{color: #f15b00;}
+
+
+/*封印弹框 原有*/
+#fy_box .close{position:absolute; width:27px; height:27px; right:50px; top:44px; cursor:pointer}
+#fy_box{background:url(../../../v3/www/images/read/bg_fy.png) no-repeat; _background:none;width:640px; height:480px; position:fixed; top:30%; left:50%; z-index:55; margin-left:-322px;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight*0.3 + "px"); display:none}
+#fy_box .bg_click{background:url(../../../v3/www/images/read/bg_fy_click.png) no-repeat; position:absolute;top:0px;left:0;width:640px; height:480px; z-index:-1;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.u17i.com/v3/www/images/read/bg_fy_click.png"); display:none}
+#fy_box .time{padding:85px 0 0 150px}
+#fy_box .time span.tit{float:left; font:14px "微软雅黑"; color:#3d1f00; padding:20px 5px 0 0}
+#fy_box .time_box{background:url(../../../v3/www/images/read/ico_fy.png) no-repeat; height:38px;width:156px; float:left; color:#fff; font:24px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:22px 0 0 0;overflow:hidden}
+#fy_box .time_box span{float:left; width:40px; height:25px; text-align:center; margin:0 6px; position:relative}
+#fy_box .time_box span i{background:url(../../../v3/www/images/read/ico_fy.png) -44px -178px; width:34px; height:2px; position:absolute; left:3px; top:15px}
+#fy_box .time i{float:left; padding:10px 0 0 10px; color:#000; width:150px; font:12px "微软雅黑"; color:#3d1f00}
+/*#fy_box .fun1{padding:70px 0 0 180px}*/
+#fy_box .fun1{padding:78px 0 0 118px; position:relative;} 
+#fy_box .fun1 .fy_login{position:absolute; right:60px; top:24px; font:16px "Microsoft Yahei"; color:#630; text-decoration:none}
+#fy_box .fun1 p{line-height:40px}
+.col_fb3{color:#ffb330}
+.col_f0{color:#fff000}
+/*#fy_box .fun1 a.btn{background:url(../../../v3/www/images/read/ico_fy.png) no-repeat 0 -60px; width:165px; height:40px; margin:0 5px; float:left}*/
+#fy_box .fun1 a.btn{background:url(../../../v3/www/images/read/ico_fy.png) no-repeat 0 -378px; width:165px; height:40px; margin:0 5px; float:left} 
+.col_zong{color:#533205}
+#fy_box .invite{padding-left:25px; color:#fff; margin-right:10px; height:22px; display:inline-block}
+.zhu{width:159px; height:23px; background:url(../../../v3/www/images/read/tishi_01.png) no-repeat; position:absolute; left:353px; _left:250px; top:105px; color:#585555; padding-top:10px; padding-left:5px; _background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.u17i.com/v3/www/images/read/tishi_01.png");}
+/* #fy_box .fun2{padding:28px 0 0 180px}
+#fy_box .fun2 a.btn{background:url(../../../v3/www/images/read/ico_fy.png) no-repeat 0 -100px; width:194px; height:35px; float:left; margin-right:5px}
+#fy_box .fun2 a.btn2{background-position:0 -235px; width:164px}
+#fy_box .fun2 p{clear:both}
+#fy_box .fun2 a{line-height:40px} */
+#fy_box .fun2{padding:45px 0 0 122px}
+#fy_box .fun2 a.btn{background:url(../../../v3/www/images/read/ico_fy.png) no-repeat 0 -421px; width:165px; height:38px; float:left; margin-right:5px}
+#fy_box .fun2 a.btn2{background-position:0 -235px; width:164px}
+#fy_box .fun2 span{ padding-top:10px; display:inline-block;}
+#fy_box .fun2 a{line-height:40px} 
+
+#fy_box .bg6{_position:absolute;top:0px;left:0;_width:640px;_height:480px;z-index:-1;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.u17i.com/v3/www/images/read/bg_fy.png")} 
+/*#fy_box .bg6_click{_position:absolute;top:0px;left:0;_width:640px;_height:480px;z-index:-1;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.u17i.com/v3/www/images/read/bg_fy_click.png")}   以前就是注销掉的*/
+
+#fy_box .fun1 a,#fy_box .fun2 a{text-decoration:underline}
+#fy_box .fun1 span{display:inline-block}
+#fy_box .ico_ver,#fy_share .ico_ver{position:absolute; width:47px; height:19px; background:url(../../../v3/www/images/read/ico_fy.png) no-repeat -100px -175px; right:105px; top:5px}
+#fy_box .btn_read,#fy_share .btn_read{width:120px; height:28px; position:absolute; left:424px; top:395px; background:url(../../../v3/www/images/read/btn_fy.png) no-repeat} 
+/*打破封印 原有 end*/
+#break_fy{background:url(../../../v3/www/images/read/bg3_fy.png) no-repeat; width:271px; _background:none; height:150px; padding:80px 30px 0; position:fixed; top:45%; left:50%; z-index:55; margin-left:-165px;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight*0.45 + "px"); display:none}
+#break_fy .close{position:absolute; width:27px; height:27px; right:26px; top:22px; cursor:pointer}
+#break_fy a.btn{background:url(../../../v3/www/images/read/ico_fy.png) no-repeat 0 -140px; width:140px; height:34px; margin:10px 0 0 50px; display:block}
+#break_fy .bg6{_position:absolute;top:0px;left:0;_width:331px;_height:230px;z-index:-1;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.u17i.com/v3/www/images/read/bg3_fy.png")}
+/*分享 原有*/
+#fy_share{background:url(../../../v3/www/images/read/bg2_fy.png) no-repeat; _background:none; width:598px; height:403px; padding:98px 0 0 49px;position:fixed; top:30%; left:50%; z-index:55; margin-left:-320px;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight*0.3 + "px"); display:none}
+#fy_share .close{position:absolute; width:27px; height:27px; right:58px; top:52px; cursor:pointer}
+#fy_share .return{position:absolute; width:28px; height:65px; right:50px; top:161px; background:url(../../../v3/www/images/read/ico_fy.png) no-repeat -151px -145px; cursor:pointer}
+#fy_share .tab{padding-left:315px}
+#fy_share .tab li{float:left; width:96px; height:30px; line-height:30px; text-align:center; margin-right:2px; cursor:pointer; color:#412801}
+#fy_share .tab li.current{color:#fff}
+#fy_share .content .left{float:left; padding-top:10px; width:340px}
+#fy_share .content .left h4,#fy_share .content .right h4{font-weight:normal; padding-left:20px; background:url(../../../v3/www/images/read/ico_fy.png) -165px -45px no-repeat; color:#fff; line-height:15px}
+#fy_share .content .left .text{width:272px; border:1px solid #999; padding:0 6px; float:left; margin:10px 5px 10px 0; height:25px; line-height:25px}
+#fy_share .content .left .btn{width:44px; height:25px; background:url(../../../v3/www/images/read/ico_fy.png) 0 -174px; border:none; float:left; margin:10px 0; cursor:pointer}
+#fy_share .content .share_style{width:340px; height:150px; clear:both}
+#fy_share .content .share_style li{float:left; width:81px; text-align:center; margin:2px; display:inline}
+#fy_share .content .share_style img{display:block}
+#fy_share .content .share_style a:hover{color:#362000}
+#fy_share .content .share_style span{color:#362000; line-height:30px}
+#fy_share .content .right{float:left; width:170px; height:200px; padding:50px 0 0 15px}
+#fy_share .content .right h4{background-position:-166px -83px}
+#fy_share .bg6{_position:absolute;top:0px;left:0;_width:668px;_height:475;z-index:-1;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.u17i.com/v3/www/images/read/bg2_fy.png")}
+#fy_share .btn_read{left:412px; top:403px}
+
+/* 右侧广告 */  
+#rdpop{display:block;background:url(http://static.u17i.com/v3/www/css/../images/other/bg_tb.png) no-repeat;z-index:50;width:154px;position:fixed;bottom:10px;_position:absolute;_bottom:auto;_top:expression(documentElement.scrollTop+documentElement.clientHeight - 340 + "px");height:330px; left:50%; margin-left:605px}
+.v4_w1000 #rdpop{ margin-left:505px;}
+#rdpop h3{height:66px; position:relative}
+#rdpop h3 .close{width:18px;height:18px; display:block; position:absolute;cursor:pointer;top:0; right:0; z-index:1}
+#rdpop h3 a{width:154px;height:66px; display:block;}
+#rdpop .pic{overflow:hidden;height:176px;text-align:center; padding-top:8px}
+#rdpop .pic .img{ display:block; height:145px; text-align:center; overflow:hidden}
+#rdpop ul li{ padding:0 5px}
+#rdpop ul a{color:#fff; line-height:26px;}
+#unopen_legend {left: 50%;margin-left: -320px;position: fixed;top: 24%;z-index: 610;}
+
+#scrollBot{top: 0; }
+
+#app_down{margin-bottom: 10px; width:920px; height:101px; border:5px solid #e3e3e3; position:relative; background:url(../images/comicinfo/app_download_930.jpg) no-repeat; };
+#app_down img{ position:absolute; left:0px; top:0px; height: 101px; width:920px;}
+.app_down_more{ position:absolute; display:block; right:442px; top:65px; width:55px; height:18px;}
+.adul2{ margin-right:30px;}
+.app_down{height: 90px; width:930px;}
+.app_down .url_list{height:30px; position: absolute; left: 644px; top: 52px;}
+.app_down .url_list a{display: inline-block; width: 120px; height: 30px; margin-right: 10px; float: left;}
+.app_down .erweima{position: absolute; left: 513px; top: 8px;}
+.chapterlist h3 a.app_down_btn{width: 70px; height: 20px; background: #9cd12c; color: #fff; display: block; float: right; margin-right: 10px; position: relative; line-height: 20px; padding:0 0 0 5px;}
+.chapterlist h3 a.app_down_btn b{display: inline-block; width: 12px; height: 13px; overflow: hidden; background: url(../images/comicinfo/app_ico.png) no-repeat 0 -9px; margin-left: 5px; vertical-align:text-bottom;}
+.chapterlist h3 a.app_down_btn:hover{background: #83b813; text-decoration: none;}
+.chapterlist h3 a.app_down_btn:hover b{background-position: 0 -26px;}
+.chapterlist h3 a.app_down_btn.cur em{display:inline-block; width: 8px; height: 5px; overflow: hidden; background: url(../images/comicinfo/app_ico.png) no-repeat -1px 0; position: absolute; left: 35px; top: -5px;}
+.chapterlist h3 a.app_down_btn.cur:hover em{background-position: 0 -42px;}
+
+.v4_w1000 #app_down{ width:720px; background:url(../images/comicinfo/app_download_730.jpg) no-repeat;}
+.v4_w1000 .app_down .url_list{ left:15px;}
+.v4_w1000 .app_down .url_list a{ width:120px; margin-right:16px;}
+.v4_w1000 .app_down .url_list a.adul2{ margin-right:5px;}
+
+.new_btn a{width: 120px; height: 36px; background: #f6b235; border-bottom: 4px solid #c98e20; float: left; border-radius: 3px; font-size: 18px; font-family: "microsoft yahei"; line-height: 36px; text-align: center; color: #fff;}
+.new_btn a#a2{background: #5ed7dc; border-color: #4dbcb0; margin-left: 10px;}
+.new_btn a em{display: inline-block; width: 24px; height: 24px; background: url(../images/comicinfo/cs_btn.png) no-repeat; position: relative; top: 6px; margin-right: 2px;}
+.new_btn a#a1 em{background-position: 0 -184px;}
+.new_btn a#a2 em{background-position: 0 -219px;}
+.new_btn a:hover{text-decoration: none; opacity: .9; filter:alpha(opaciyt:.9)}
+.new_btn a#a2.cur{background: #2fb6bc; border-color: #308e84;}
+
+/*填词列表*/
+.lyrics_box{margin-top: 44px;}
+.lyrics_list{margin-top: 10px; padding-left: 10px;}
+.lyrics_list li{font-size: 12px; width: 174px; float: left; height: 28px; line-height: 28px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap; margin-right: 10px;}
+.lyrics_list li a{color: #666;}
+.lyrics_list li a:hover{color: #6dad14;}
+.lyrics_list li a.zan:hover{text-decoration: none; color: #666;}
+.lyrics_list li a.zan{overflow: hidden;line-height: 18px;display: inline-block;background: url(../images/comicinfo/zan.png) no-repeat;font-size: 12px;color: #9c4803;padding-left: 16px;margin-left: 5px; position: relative; top: -2px; vertical-align: middle;}
+/*填色作者*/
+.fill_color_list{margin-top: 10px; padding-top: 5px; padding-left: 10px;}
+.fill_color_list li{width: 110px; float: left; position: relative; height: 105px; padding-left: 110px; margin-right: 10px;}
+.fill_color_list li .imgbox{width: 95px; height: 95px; position: absolute; left: 0; top: 0; padding: 1px; border: 1px solid #acacac;}
+.fill_color_list li .imgbox img{width: 100%; height: 100%;}
+.fill_color_list li .fill_color_txt{font-size: 12px; color: #000;}
+.fill_color_list li .fill_color_txt:hover{color: #6dad14;}
+.fill_color_list li .zan{overflow: hidden;line-height: 18px;display: inline-block;background: url(../images/comicinfo/zan.png) no-repeat;font-size: 12px;color: #9c4803;padding-left: 16px; position: absolute; bottom: 20px; left: 110px;}
+.fill_color_list li .zan:hover{text-decoration: none; color: #666;}
+.lyrics_box .recomend_con{min-height: 112px;_height:112px;}
+.v4_w1000 .lyrics_box{margin-top: 24px;}
+.v4_w1000 .lyrics_list li{width: 170px;}
+.v4_w1000 .fill_color_list{height: 105px; overflow: hidden;}
+.v4_w1000 .fill_color_list li{width: 120px;}
+.v4_w1000 .lyrics_box .recomend_con{min-height: 120px;_height:120px;}
+
+
+/* 端脑信息页 */
+.zhenhunjie #header .search{ background: none;}
+.zhenhunjie #header .laba{ display: none;}
+.zhenhunjie #header .wrap{ height:65px; }
+.zhenhunjie #header .logo a{ background: url(../../common/images/logo/logo_w1000.png) center top no-repeat; width: 160px; height: 63px;}
+.zhenhunjie #header .logo{ padding: 0 0 0 14px;}
+.zhenhunjie #header{ padding:15px 0; background: none;}
+/*.zhenhunjie_bg{ position: absolute; width: 100%; height: 1061px; overflow: hidden; left: 0; top: 0;}
+.zhenhunjie_bg_section{ position: absolute; left: 50%; width: 1920px; margin-left: -960px; top: 0; height: 1061px; display: none;}
+.zhenhunjie_bg_section.cur{ display: block;}
+.zhenhunjie_bg_section .area{ width:1200px; height:100%; margin:0 auto; position:relative; background:inherit;}
+.zhenhunjie_bg1{ background: url(../../www/images/comicinfo/zhenhunjie_bg_donghua.jpg) center top no-repeat;}*/
+.zhenhunjie_wrap .area{ padding-top: 44px;}
+.zhenhunjie .zhenhunjie_wrap.bg1{background: url(../../www/images/comicinfo/zhenhunjie_bg_donghua.jpg) center top no-repeat; width: 100%;}
+.zhenhunjie .zhenhunjie_wrap.bg2{background: url(../../www/images/comicinfo/zhenhunjie_bg_youxi.jpg) center top no-repeat; width: 100%;}
+.zhenhunjie .zhenhunjie_wrap.bg3{background: url(../../www/images/comicinfo/zhenhunjie_bg_zhoubian.jpg) center top no-repeat; width: 100%;}
+.zhenhunjie .wrap{ background-color: #fff;}
+.zhenhunjie .zhenhunjie_wrap .area{ width:1200px; height:100%; margin:0 auto; position:relative; background:inherit;}
+
+.zhenhunjie .comic_info .left .info .label{ border:none;}
+.zhenhunjie .comic_info .cover{ background: none; width: 158px; height: 210px; padding: 0px; border:1px solid #cbcbcb;}
+.zhenhunjie .comic_info .cover img{ width: 100%; height: 100%;}
+
+.zhenhunjie_tab_content{ height: 442px; }
+.zhenhunjie_tab_content .area{ width:1200px; height:100%; margin:0 auto; position:relative; background:inherit; overflow: hidden; }
+.zhenhunjie_tab_content .tab_content{ position: absolute; left: 38px; top: 104px;}
+.zhenhunjie_tab_content .tab_section{ width: 124px; height: 53px; margin-bottom: 13px; position: relative; background-image: url(../images/comicinfo/zhenhunjie_comic_sprite.png); background-repeat: no-repeat; cursor: pointer;}
+.zhenhunjie_tab_content .tab_section.ts1{ background-position: 0px 0px;}
+.zhenhunjie_tab_content .tab_section.ts2{ background-position: 0px -65px;}
+.zhenhunjie_tab_content .tab_section.ts3{ background-position: 0px -131px;}
+.zhenhunjie_tab_content .tab_section span{ position: absolute; display: block; width: 164px; height: 74px; left: -29px; top: -11px; display: none; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -144px 0px no-repeat;}
+
+.zhenhunjie_tab_content .tab_section.cur span{ display: block;}
+
+.tab_page_content{ position: absolute; left:210px; top: 28px; width: 789px;}
+.tab_page_section{ position: relative; display: none; width: 1200px; vertical-align: top;}
+.tab_page_section.cur{ display: block;}
+
+.tab_page_content .tab_video_content{ position: absolute; width:328px; height: 263px; left:0; top
+:20px; background: url(../images/comicinfo/zhenhunjie_video_bg.png) center top no-repeat }
+.tab_page_content .tab_video_content .tab_video_bg{ position: absolute; width:280px; height: 138px; left: 28px; top: 82px;}
+.tab_page_content .tab_video_content .tab_video_btn{ position: absolute; width:280px; height: 138px; left: 28px; top: 82px;  background: url(../images/comicinfo/zhj_video_play.png) center center no-repeat;}
+.tab_page_content .tab_video_content .choose-link{ position: absolute; top: 226px; left: 266px; text-decoration: underline; color: #fff;}
+.tvc_laba{ position: absolute; color: #fff; left: 45px; top: 226px;}
+.zhenhunjie_game_qrcode{ width: 85px; height: 85px; position: absolute; left: 38px; top: 268px;}
+.zhenhunjie_game_download{ position: absolute; width:149px; height: 41px; top: 278px; left: 13px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 0 -596px; }
+.zhenhunjie_game_website{ position: absolute; width:149px; height: 41px; top: 278px; left: 173px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 0 -643px; }
+.zhenhunjie_game_gongce{ position: absolute; width:149px; height: 41px; top: 278px; left: 173px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -158px -643px; }
+
+.tab_page_section.tps3{ width:848px; height: 303px; position: relative; padding: 23px 50px 0 50px;}
+.tab_page_section.tps3 .tps_bg{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #fff; opacity: 0.7; filter:alpha(opacity=70); z-index: 1;}
+.zhoubian_content{ position: relative; z-index: 2; width: 848px; height: 303px; overflow: hidden; font-family: "microsoft yahei";}
+.zhoubian_cb{ position: relative; width: 9999px; height: 303px;}
+.zhoubian_content .zhoubian_section{ float: left; width: 848px; height: 303px; overflow: hidden;}
+.zhoubian_img_box{ float: left; width: 280px; height: 280px; border:2px solid #000;}
+.zhoubian_img_box img{ width: 100%; height: 100%;}
+.zhoubian_info_box{ float: left; margin-left:30px; width: 512px; height: 278px; padding-top: 2px; }
+.zhoubian_info_box .zib_title{ font-size:18px; line-height: 18px; margin-bottom:18px; }
+.zhoubian_info_box .zib_price{ font-size: 14px; margin-bottom: 25px;}
+.zhoubian_info_box .zib_price span{ font-size: 22px; color:#ff3f3f; }
+.zhoubian_info_box .zib_buy_btn{ display: block; width: 102px; height: 41px; background: url(../images/comicinfo/zhoubian_buy.jpg); margin-bottom:35px; }
+.zhoubian_info_box .zib_show_list{ width: 550px;}
+.zhoubian_info_box .zib_show_list li{ float: left; width:163px; height: 116px; border:1px solid #c2c7c6; margin-right: 10px;}
+.zhoubian_info_box .zib_show_list li img{ width: 100%; height: 100;}
+.zhoubian_show_control{ position: absolute; display: none; z-index: 3;  width:34px; height: 62px; background-image: url(../images/comicinfo/control_btn.png); top: 135px;}
+.zhoubian_prev{ background-position: 0px -70px; left: 8px;}
+.zhoubian_prev:hover{ background-position: 0px 0px;}
+.zhoubian_next{ background-position: -45px -70px; right: 8px;}
+.zhoubian_next:hover{ background-position: -45px 0px;}
+
+.zhenhunjie_buy_price{ color: #ff3f3f;}
+.zhenhunjie_buy_price del{ color: #999;}
+.zhenhunjie_buy_btn{ display: inline-block; width: 102px; height: 41px; background: url(../images/comicinfo/zhoubian_buy.jpg);}
+.zhenhunjie_buy_show{ float: left; width: 617px; margin-left: 50px;}
+.zhenhunjie .comic_info .left .info .top{ border: none;}
+.zhenhunjie .comic_info{ height: 285px;}
+.zhenhunjie .comic_info .coverBox{ width: 118px; margin: 0 40px 0 25px;}
+/*.comic_info .cover .bot{ left: 8px;}*/
+
+.zhenhunjie .comic_info .cover .box{ margin-right: 26px;}
+.zhenhunjie .comic_info .left .info .top .line1 a{ position: relative; display: inline-block; font-size: 12px; color: #666; text-align: center; line-height: 20px; height: 20px; border:1px solid #ccc; border-radius: 10px; padding: 0px 10px;  text-decoration: none; margin-right: 5px; vertical-align: middle;}
+.zhenhunjie .comic_info .left .info .top .line1 a.cur{ border:1px solid #78b327; color: #78b327;}
+.zhenhunjie .comic_info .left .info .top .zhenhunjie_tag_edit{ width: 74px; height: 20px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 0 -743px; border:none!important; padding: 0!important; border-radius: 0px!important;}
+.zhenhunjie .color_red{ color: #ff212e!important;}
+.zhenhunjie .color_green{ color: #6dad15!important;}
+.zhenhunjie .comic_info .left .info .top .line2 .zhenhunjie_status{ float: left; margin-right: 15px;}
+.zhenhunjie .zhenhunjie_gift{ background: none!important; height: 260px!important; border-bottom: 3px solid #ffae00; padding: 10px 0;}
+.zhenhunjie .zhenhunjie_gift li{ padding:8px 0 5px 95px; height: 52px; width: 150px; font-size: 14px;}
+.zhenhunjie .zhenhunjie_gift li.zg1{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 25px -284px;}
+.zhenhunjie .zhenhunjie_gift li.zg2{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 25px -359px;}
+.zhenhunjie .zhenhunjie_gift li.zg3{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 25px -431px;}
+.zhenhunjie .zhenhunjie_gift li.zg4{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 25px -504px;}
+.zhenhunjie .zg_num{ color: #999;}
+.zhenhunjie .side .send_gift p a.fr{ width: 58px; text-decoration: none;}
+.zhenhunjie .chapterlist .zhenhunjie_slide{ display: inline-block; height: 22px; line-height: 22px;  border-radius: 2px; width: 61px;  background-color:#46c1ac; padding:0 13px 0 12px; color: #fff; vertical-align: middle; }
+.zhenhunjie .chapterlist .zhenhunjie_slide span{ display: inline-block; width:12px; height: 22px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -23px -248px; vertical-align: middle;}
+.zhenhunjie .chapterlist .zhenhunjie_slide:hover{ background-color:#4bd1ba!important; }
+.zhenhunjie .chapterlist .zhenhunjie_slide.zs2{ margin-right: 12px; height: 28px; line-height: 28px; font-size: 14px; width: 72px;}
+.zhenhunjie_slide_open{ display: none; position: absolute; width: 920px; height: 47px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; top: 189px; left: 0px; background-color: #fff; text-align: center; line-height: 47px; font-size: 14px; color: #666; vertical-align: middle; cursor: pointer;}
+.zhenhunjie_slide_open span{ display: inline-block; width: 12px; height: 12px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -0px -251px; vertical-align: middle; margin-left: 7px;}
+.zhenhunjie .edit_tag_content{ position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.7); z-index: 999; font-family: "microsoft yahei"; display: none;}
+.zhenhunjie .edit_tag_box{ position: absolute; width: 546px; height: 540px; padding:15px 20px; background-color: #fff; margin: -280px 0 0 -278px; left: 50%; top: 50%;}
+.edit_tag_title{ height:36px; line-height: 36px; vertical-align: middle; font-size: 16px; color: #666; border-bottom:2px solid #ccc;}
+.edit_tag_title span{ display: inline-block;width: 25px; height: 36px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -264px -734px;  vertical-align: middle;}
+.zhenhunjie .et_title{ margin-top: 10px; font-weight: bold; font-size: 14px; color: #666;}
+.zhenhunjie .et_line{ line-height: 40px; vertical-align: middle;}
+.zhenhunjie .et_section{ display: inline-block; margin-right:30px; color: #666; }
+.zhenhunjie .et_tag{ display: inline-block; border-radius: 12px; padding:0px 12px; height: 20px; line-height: 20px; border:1px solid #d8d8d8; margin-right: 10px; text-decoration: none; position: relative; font-size: 12px;}
+.zhenhunjie .et_tag i.zhj_lock{ position: absolute; display: block; width:18px; height: 18px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -112px -741px; right: -7px; top: -11px; }
+.zhenhunjie .et_tag i.zhj_unlock{ position: absolute; display: block; width:18px; height: 18px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -137px -741px; right: -7px; top: -11px; }
+.zhenhunjie .et_tag.cur{ border:1px solid #78b327; color: #78b327;}
+.zhenhunjie .et_zan{ display: inline-block; width:20px; height: 20px; vertical-align: middle; }
+.zhenhunjie .etz1{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -189px -743px;}
+.zhenhunjie .etz2{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -166px -743px;}
+.zhenhunjie .etz3{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -239px -743px;}
+.zhenhunjie .etz4{ background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -215px -743px;}
+
+.zhenhunjie .zhj_dialog_line{ width: 100%; border-top:1px dashed #999; margin-top: 15px;}
+.input_tag_box{ margin-top: 5px; height: 36px;}
+.input_tag_box input{ width: 410px; height: 34px; border:1px solid #999; border-radius: 2px 0 0 2px; border-right: none; padding-left: 10px; outline: none; float: left;}
+.input_tag_box .input_tag_btn{ float: left; width: 120px; height: 36px; background-color: #d04040; color: #fff; text-align: center; line-height: 36px; font-size: 14px; border-radius: 0 2px 2px 0;}
+.edit_close{ position: absolute; width: 30px; height: 30px; background:#fff; top: 0; right: -30px;}
+.edit_close i{ display: block; width: 100%; height: 100%; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -78px -737px; cursor: pointer;}
+.video_dialog_content{ position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.7); z-index: 999; font-family: "microsoft yahei"; display: none;}
+.video_dialog_box{ position: absolute; width: 726px; height: 442px; background:#fff; border:3px solid #2bc6a5; left: 50%; top: 50%; margin: -224px 0 0 -365px;}
+.video_dialog_box .vdb_close{ position: absolute; width: 40px; height: 40px; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) 0 -779px; cursor: pointer; right: -50px; top: -25px;}
+.zhenhunjie #header .wrap{ background: none!important;}
+.zhenhunjie_share{ float: right; padding-left: 24px; height: 24px; line-height: 24px; font-size: 14px; margin: 20px 10px 0 0; background: url(../images/comicinfo/zhenhunjie_comic_sprite.png) -53px -783px; text-decoration: none;}
+.zhenhunjie_share:hover{text-decoration: none;}
+
+.main .comment_title a:hover{ text-decoration: none;}
+.main .comment_title{border:1px solid #cecece; border-bottom:2px solid #534942; height:35px; background:#eee; position:relative; padding:0 15px 0 0px; }
+.comment_section_content{ position: relative; float: left; width: 125px; height: 35px; text-align: center; line-height: 35px; border-right: 1px solid #cecece;}
+.csc_grup_name{ font: 14px/35px "Microsoft Yahei"; color: #333; display: block;}
+.csc_grup_name:hover{ color: #333;}
+.comment_title .csc_grup_list{ position: absolute; display: none; top: 37px; left: 0px; background-color: #fff; width: 124px; border:1px solid #3c322b; border-top: none;}
+.comment_title .csc_grup_list li{ height: 30px; line-height: 30px;}
+.comment_title .csc_grup_list li a{ display: block; width: 100%; height: 100%;}
+.comment_title .csc_grup_list li a:hover,.comment_title .csc_grup_list li.cur a{ background-color: #f8f4f1;}
+
+.comment_section_content.cur .csc_grup_name{ color: #fff; border: 1px solid #3c322b; background-color: #574c45}
+.zhenhunjie .chapterlist_total{ color: #666; font-size: 16px; font-family: "microsoft yahei"; line-height: 35px; margin-left: 12px;}
+
+.zhenhunjie .comic_info .cover .bot .ico_trans{ width: 50px; height: 50px;}
+.zhenhunjie .comic_info .cover .download .ico_trans{  background: url(../images/comicinfo/zhenhunjie_trans.png) 0px -51px;}
+.zhenhunjie .comic_info .cover .download .ico_trans:hover{ background: url(../images/comicinfo/zhenhunjie_trans.png) 0px 0px;}
+.zhenhunjie .comic_info .cover .history .ico_trans{ background: url(../images/comicinfo/zhenhunjie_trans.png) -51px -51px;}
+.zhenhunjie .comic_info .cover .history .ico_trans:hover{  background: url(../images/comicinfo/zhenhunjie_trans.png) -51px 0px;}
+.zhenhunjie .comic_info .left .info .words{ font-size: 13px; line-height: 24px; height: 72px; padding: 0px; margin-top: 10px;}
+.zhenhunjie .words .words_more{ display: inline-block; color: #999; text-decoration: underline; margin-left: 5px;}
+.zhenhunjie .words .words_more:hover{ color: #62ade2;}
+.zhenhunjie .comic_info .left .info .top .line1{ margin-bottom: 5px;}
+.zhenhunjie .comic_info .cover .bot{ left: 17px;}
+.zhenhunjie .comic_info .btn_wrap a{ margin: 0px 26px 0 16px;}
+.zhenhunjie .side .gift h2{ z-index: 1;}
+.zhenhunjie .side .gift .pop_box{ left: 248px; top: 0px;}
+
+.zhenhunjie .side .gift .tongqian .con .fl span{ background: url(../images/comicinfo/zhj_tq.png) center center no-repeat; background-size: auto 100%;}
+.zhenhunjie .side .gift .lingyi .con .fl span{ background: url(../images/comicinfo/zhj_ly.png) center center no-repeat; background-size: auto 100%;}
+.zhenhunjie .side .gift .huaihunzhi .con .fl span{ background: url(../images/comicinfo/zhj_hhz.png) center center no-repeat; background-size: auto 100%;}
+.zhenhunjie .side .gift .yaoguoshou .con .fl span{ background: url(../images/comicinfo/zhj_ygs.png) center center no-repeat; background-size: auto 100%;}

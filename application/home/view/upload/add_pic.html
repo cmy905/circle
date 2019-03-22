@@ -1,0 +1,52 @@
+{include file="public/header" /}
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <!-- Panel Other -->
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>漫画页面上传</h5>
+        </div>
+        <div class="ibox-content">
+            <!--搜索框开始-->           
+            <div class="row">
+                
+            </div>
+            <!--搜索框结束-->
+            <div class="hr-line-dashed"></div>
+            <div class="example-wrap">
+                <!--头部，相册选择和格式选择-->
+
+                <div id="uploader">
+                    <div class="queueList">
+                        <div id="dndArea" class="placeholder">
+                            <div id="filePicker"></div>
+                            <p>或将漫画拖到这里，单次最多可选300张（批量上传请将页面名称已数字递增形式预先命名，例：001.jpg,002.jpg,...,199.jpg）</p>
+                        </div>
+                    </div>
+                    <div class="statusBar" style="display:none;">
+                        <div class="progress">
+                            <span class="text">0%</span>
+                            <span class="percentage"></span>
+                        </div><div class="info"></div>
+                        <div class="btns">
+                            <div id="filePicker2"></div><div class="uploadBtn">开始上传</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+
+{include file="public/footer" /}
+<script type="text/javascript">
+    var upload_url = "{:url('page_upload')}";
+    var book = "{$book}";
+    var chapter = "{$chapter}";
+</script>
+<script type="text/javascript" src="__COMMON__/webuploader/dist/webuploader.js"></script>
+<script type="text/javascript" src="__COMMON__/webuploader/upload.js"></script>
+</body>
+</html>

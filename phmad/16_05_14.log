@@ -1,0 +1,30 @@
+[ 2016-05-14T19:16:24+08:00 ] 218.72.85.0 /easytp-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-05-14T19:16:24+08:00 ] 218.72.85.0 /easytp-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-05-14T19:16:32+08:00 ] 218.72.85.0 /easytp-master/install/index/step1.html?1463224597692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-05-14T19:16:32+08:00 ] 180.153.205.253 /easytp-master/install/index/step1.html?1463224597692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-05-14T19:16:36+08:00 ] 218.72.85.0 /easytp-master/install/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-05-14T19:16:45+08:00 ] 218.72.85.0 /easytp-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
